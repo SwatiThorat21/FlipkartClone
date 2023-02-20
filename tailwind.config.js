@@ -7,6 +7,7 @@ module.exports = {
       blue: "#2874f0",
       yellow: "#ffe500",
       white: "rgb(255 255 255);",
+      gray: "#474545",
     },
     fontFamily: {
       roboto: "Roboto,Arial,sans-serif;",
@@ -17,6 +18,9 @@ module.exports = {
       sm: "0.875rem",
       lg: "1.125rem",
     },
+    boxShadow: {
+      gray: "1px 1px 1px rgba(0,0,0,0.15)",
+    }
   },
   plugins: [],
 };
