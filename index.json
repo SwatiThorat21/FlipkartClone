@@ -60,5 +60,239 @@
       "name": "2-Wheelers",
       "subNavigation": true
     }
+  ],
+  "slidingImages": [
+    {
+      "imgSrc": "https://rukminim1.flixcart.com/fk-p-flap/50/50/image/0af653e5140747b0.jpg?q=50"
+    },
+    {
+      "imgSrc": "https://rukminim1.flixcart.com/flap/50/50/image/e0c3c470bc6c68d7.jpg?q=50"
+    },
+    {
+      "imgSrc": "https://rukminim1.flixcart.com/fk-p-flap/50/50/image/a96670a0535ba0b8.jpg?q=50"
+    },
+    {
+      "imgSrc": "https://rukminim1.flixcart.com/fk-p-flap/50/50/image/c620ccc70e59252d.jpg?q=50"
+    },
+    {
+      "imgSrc": "https://rukminim1.flixcart.com/fk-p-flap/50/50/image/628777116a4d9f61.png?q=50"
+    },
+    {
+      "imgSrc": "https://rukminim1.flixcart.com/fk-p-flap/844/140/image/a662a1f8e1374543.jpg?q=50"
+    },
+    {
+      "imgSrc": "https://rukminim1.flixcart.com/fk-p-flap/50/50/image/c620ccc70e59252d.jpg?q=50"
+    }
+  ],
+  "electronicsProductData": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg?q=70",
+      "productName": "Monitor",
+      "discount": "From ₹8279",
+      "brand": "DELL"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l5jxt3k0/dslr-camera/m/n/a/-original-imagg7hsggshhwbz.jpeg?q=70",
+      "productName": "Top Mirrorless Cameras",
+      "discount": "Shop Now!",
+      "brand": "Canon, Sony, Fujifilm..."
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70",
+      "productName": "Printers",
+      "discount": "From ₹3999",
+      "brand": "HP"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg?q=70",
+      "productName": "Monitor",
+      "discount": "From ₹8279",
+      "brand": "DELL"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/400/400/ks7tuvk0/gimbal/v/z/7/0-43-om4-se-dji-original-imag5u6rgsdh6k4g.jpeg?q=70",
+      "productName": "Monitor",
+      "discount": "From ₹8279",
+      "brand": "DELL"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/400/400/kingqkw0-0/hair-straightener/s/v/x/hp8302-06-philips-original-imaf9jzzzurgqykt.jpeg?q=70",
+      "productName": "Best of Hair straighteners",
+      "discount": "From ₹8279",
+      "brand": "DELL"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg?q=70",
+      "productName": "Monitor",
+      "discount": "From ₹8279",
+      "brand": "DELL"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg?q=70",
+      "productName": "Monitor",
+      "discount": "From ₹8279",
+      "brand": "DELL"
+    }
+  ],
+  "beautyFoodToysProducts": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l3uhvgw0/cycle/n/z/c/torro-26t-26-16-montra-72-21-gear-original-imagevzncygdd8ah.jpeg?q=70",
+      "productName": "Premium Cycle",
+      "discount": "Up to 70% Off",
+      "brand": "Montra, Firefox & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/jlph9jk0/cycle/h/f/k/skyper-26t-sskp26bk0001-16-hero-original-imaf8ru5xysfgtmx.jpeg?q=70",
+      "productName": "Premium Non-Geared Cycles",
+      "discount": "Up to 40% Off",
+      "brand": "Hercules, Hero & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l58iaa80/electric-cycle/i/y/f/-original-imagfykthgudy4qz.jpeg?q=70",
+      "productName": "Electric Cycle",
+      "discount": "Up to 40% Off",
+      "brand": "Nuze, Motovolt & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q=70",
+      "productName": "Remote Control Toys",
+      "discount": "Up to 80% Off",
+      "brand": "Buy Now!"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg?q=70",
+      "productName": "Soft Toys",
+      "discount": "Up to 70% Off",
+      "brand": "Stuffed Toys,Plush Toys & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/k7w8eq80/two-wheeler-tyre/v/y/s/90-90-12-106061-milaze-tl-54j-sw-ceat-original-imafqyx5tnfraaxh.jpeg?q=70",
+      "productName": "Tyres",
+      "discount": "From 799",
+      "brand": "Apollo, Bridgestone,Ceat and"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kjuby4w0/deodorant/v/c/d/400-one8-intense-fresh-deo-pack-of-2-200ml-x-2-2-perfume-body-original-imafzbn4nv2zhccp.jpeg?q=70",
+      "productName": "Deodrants and Perfumes",
+      "discount": "Up to 60% Off",
+      "brand": "Denver,Fogg & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=70",
+      "productName": "Coffee Powder",
+      "discount": "Up to 80% Off",
+      "brand": "Nescafe,Continental & more"
+    }
+  ],
+  "summerProducts": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l3vxbbk0/slipper-flip-flop/u/9/i/8-diamond-1-mehandi-diamond-1-black-evok-mehandi-black-original-imagewkb3rmxggfm.jpeg?q=70",
+      "productName": "Slippers & Flip Flops",
+      "discount": "Min.70% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l16rde80/cap/r/y/3/free-new-stylish-baseball-combo-cap-pack-of-2-blutech-original-imagct73tz7myfnh.jpeg?q=70",
+      "productName": "Men's Caps",
+      "discount": "Min.50% Off"
+    },
+    {
+      "img": "https://www.flipkart.com/all/~cs-42192f0359a519415c7f8820a9eee2ce/pr?sid=upp,f2k,0zz&marketplace=FLIPKART&restrictLocale=true&fm=personalisedRecommendation%2FC5&iid=R%3Ag%3Bpt%3Ahp%3Buid%3Ae03006ca-b105-11ed-b1ea-09b2ebf13a8d%3B.cid%3AS_F_N_upp_f2k_0zz__d_50-100__NONE_ALL%3Bnid%3Aupp_f2k_0zz_%3Bet%3AS%3Beid%3Aupp_f2k_0zz_%3Bmp%3AF%3Bct%3Ad%3B&ssid=8wuzal7flc0000001676956631834&otracker=hp_reco_Shop%2Bfor%2Ba%2BCool%2BSummer_3_8.dealCard.OMU_cid%3AS_F_N_upp_f2k_0zz__d_50-100__NONE_ALL%3Bnid%3Aupp_f2k_0zz_%3Bet%3AS%3Beid%3Aupp_f2k_0zz_%3Bmp%3AF%3Bct%3Ad%3B_5&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2FC5_Shop%2Bfor%2Ba%2BCool%2BSummer_DESKTOP_HORIZONTAL_dealCard_cc_3_NA_view-all_5&cid=cid%3AS_F_N_upp_f2k_0zz__d_50-100__NONE_ALL%3Bnid%3Aupp_f2k_0zz_%3Bet%3AS%3Beid%3Aupp_f2k_0zz_%3Bmp%3AF%3Bct%3Ad%3B",
+      "productName": "Water Bottles",
+      "discount": "Min.50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kg9qbgw0/small-travel-bag/k/n/d/lightweight-60-l-luggage-travel-duffel-bag-with-2-wheels-purple-original-imafwjhfzcvyfqve.jpeg?q=70",
+      "productName": "Small Travel Bags",
+      "discount": "Min.70% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kbv4fww0/handkerchief/d/9/z/vintage-floral-print-handkerchiefs-women-soft-cotton-hankies-original-imaft4e5eafggpbc.jpeg?q=70",
+      "productName": "Women's Handkerchiefs",
+      "discount": "Min.50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/kids-t-shirt/4/r/g/14-15-years-bwtblbz53-blrnfulboy-bz56-blive-original-imaghbhazzzk2zkb.jpeg?q=70",
+      "productName": "Kids' T-shirts",
+      "discount": "Buy 1 get 20% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/kids-track-pant/7/u/w/6-7-years-kids-rib-pants-eio-original-imageq2u9avhshtv-bb.jpeg?q=70",
+      "productName": "Kids' Track Pants",
+      "discount": "Min.50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/inverter-battery/9/u/i/65-eco-volt-neo-850-inverter-rc-15000-battery-trolley-20-original-imagg8pdz9suctd6.jpeg?q=70",
+      "productName": "Inverters And Accessories",
+      "discount": "Min.50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/three-fourth/x/k/c/3xl-gf-3-4-new-p3-black-p6-navy-guide-original-imag4wsgt88bzcz5-bb.jpeg?q=70",
+      "productName": "Men's Three-Fourths",
+      "discount": "Min.50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l1fc0i80/fan/e/6/s/-original-imagczzsevxhn2qw.jpeg?q=70",
+      "productName": "Fans",
+      "discount": "Min.50% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/k0zlsi80/travel-toiletry-kit/y/g/z/hanging-travel-toiletry-organizer-kit-with-hook-and-handle-for-original-imafa8a4ncbxewgs.jpeg?q=70",
+      "productName": "Travel Toiletry Kits",
+      "discount": "Min.70% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/swimsuit/7/a/y/s-sm0118p13-clovia-original-imagjznztx6pdfnc.jpeg?q=70",
+      "productName": "Women's Swimsuits",
+      "discount": "Buy 4 get 20% Off"
+    }
+  ],
+  "sportsHealthProducts": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/jms25jk0/dumbbell/e/p/r/pvc-combo16-na-8-krx-original-imaepy3rcgm3nsva.jpeg?q=70",
+      "productName": "Dumbbell",
+      "discount": "Buy 4 get 20% Off"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/jc0ttow0/vehicle-lubricant/5/h/q/1-3000-4t-plus-20w40-hc-tech-engine-oil-for-bikes-motul-original-imaff8z4xtq5ry6a.jpeg?q=70",
+      "productName": "Car Lubricant",
+      "discount": "Up to 45% Off",
+      "brand": "Mobil,Shell,Castrol & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kebpqq80/musical-keyboard/j/h/h/37-keys-nj-fashion-original-imafvyhrjeuah2ge.jpeg?q=70",
+      "productName": "Musical Keyboards",
+      "discount": "Up to 70% Off",
+      "brand": "Beston,Redbox & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l51d30w0/shopsy-sport-mat/p/w/s/anadi-01-yoga-mat-4-30-anadi-enterprise-15-original-imagfsxudxcm7r48.jpeg?q=70",
+      "productName": "Yoga Mat",
+      "discount": "From &#8377;159",
+      "brand": "BeatXP,HRX & Adrenex"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kk5rgy80/racquet/a/n/f/g4-3-25-inches-strung-nanoflare-light-29is-1-nanoflare-light-original-imafzkgg9zrt6eet.jpeg?q=70",
+      "productName": "Badminton Racquets",
+      "discount": "From &#8377;899",
+      "brand": "Full Graphite Racquets"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kql8sy80/lipstick/7/m/y/21-sara-s-favorite-sensational-liquid-matte-pack-of-3-touch-of-original-imag4kgnbmynydnw.jpeg?q=70",
+      "productName": "Makeup Essentials",
+      "discount": "Up to 60% Off",
+      "brand": "Lakme, Swiss Beauty & more"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=70",
+      "productName": "Gym Essentails",
+      "discount": "From &#8377;139",
+      "brand": "Shop Now"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/ji0lbbk0/toothpaste/q/p/m/50-100-percent-natural-berry-blast-kids-toothpaste-50g-mamaearth-original-imaf5vhtpm6fpuhm.jpeg?q=70",
+      "productName": "Baby Oral Care",
+      "discount": "Under &#8377;399",
+      "brand": "Shop Now"
+    }
   ]
 }
