@@ -294,5 +294,156 @@
       "discount": "Under &#8377;399",
       "brand": "Shop Now"
     }
+  ],
+  "HomeKitchenProducts": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kz8qsnk0/mosquito-net/h/1/p/double-bed-polyester-adults-blue-mosquito-net-double-bed-nets-original-imagbagfgnfvnquj.jpeg?q=70",
+      "productName": "Mosquito Nets",
+      "discount": "From &#8377;149",
+      "brand": "Best Deal Price"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l4x2rgw0/mat/y/m/e/small-anti-skid-doormats-for-bathroom-entrance-and-bedrooms-original-imagfppfexh9ns3r.jpeg?q=70",
+      "productName": "Door Mats",
+      "discount": "From &#8377;39",
+      "brand": "Best Selling Range"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/k3j1z0w0/ceiling-lamp/w/7/r/gold-01-classical-original-imafmbywhhurgf6b.jpeg?q=70",
+      "productName": "Decor Lightings",
+      "discount": "Up to 80% Off",
+      "brand": "Big Discounts"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kz7bcsw0/artificial-plant/c/s/z/11-yes-4potss-ryme-original-imagb9zw4msbftaw.jpeg?q=70",
+      "productName": "Artificial Plants",
+      "discount": "Up to 80% Off",
+      "brand": "Big Discounts"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/k6mibgw0/vase/b/k/h/double-face-vase-combo-8-10-wauood-original-imafpfhzhhxdeexf.jpeg?q=70",
+      "productName": "Vases",
+      "discount": "Up to 80% Off",
+      "brand": "Big Discounts"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l0o6nbk0/diwan-set/r/k/q/dwn-naya-wala-lehar-udeek-original-imagcdyxykhn3q4f.jpeg?q=70",
+      "productName": "Diwan Sets",
+      "discount": "From &#8377;219",
+      "brand": "Best Selling Range"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/jxxkvww0/bath-linen-set/h/y/h/p4-bathsports-gretea-heelium-original-imafg3zc8kfqzpza.jpeg?q=70",
+      "productName": "Bath Linen Sets",
+      "discount": "From &#8377;129",
+      "brand": "Best Selling Range"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kgv5x8w0/slipcover/v/f/v/sfc-29-onterio-fab-original-imafxyen34zmpde3.jpeg?q=70",
+      "productName": "Sofa Covers",
+      "discount": "From &#8377;149",
+      "brand": "Best Selling Range"
+    }
+  ],
+  "fashionProducts": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kn4xhu80/bra/x/c/3/lightly-padded-32e-no-regular-regular-br2213p08-clovia-original-imagfvnj3gmgqbxf.jpeg?q=70",
+      "productName": "Bra, Tops, Dresses",
+      "discount": "From &#8377;99",
+      "brand": "Sassafras,Clovia,Only & More"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/fk-p-flap/200/200/image/5aa98b7cee183286.jpg?q=70",
+      "productName": "Best selling Styles",
+      "discount": "Min.40% Off",
+      "brand": "Woodland, U.S.Polo Asssn..."
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l48s9zk0/shirt/w/s/r/m-st-pv-purple-majestic-man-original-imagf6g9knyyrxvp.jpeg?q=70",
+      "productName": "Roadster,HRX & more",
+      "discount": "From &#8377;249",
+      "brand": "T-Shirt, Shirts"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l3dcl8w0/sari/n/7/j/free-mfs-192-light-blue-mahalaxmi-fashion-unstitched-original-imagegdqcnufet7k.jpeg?q=70",
+      "productName": "Organza Sarees",
+      "discount": "Flat.70% Off",
+      "brand": "Shop Now!"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kxnl6kw0/jewellery-set/a/c/d/na-na-m11-single-r5-bright-style-original-imaga2ahezaabmry.jpeg?q=70",
+      "productName": "Fashion Jewellery",
+      "discount": "From &#8377;99",
+      "brand": "Best Deals!"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/xif0q/sandal/y/w/8/2-goldensuperstaruk2-purplehunt-golden-original-imaggzdrcyj6fuqq.jpeg?q=70",
+      "productName": "Puma,Bata,Crocs...",
+      "discount": "Min.40% Off",
+      "brand": "Women's Shoes & Sandals..."
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l23mhzk0/top/a/b/l/m-tttp006710-tokyo-talkies-original-imagdgg4gqpmdgm8.jpeg?q=70",
+      "productName": "Tops, Dresses,Jeans...",
+      "discount": "Min.60% Off",
+      "brand": "AND,Sassafras,Killer.."
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kpu3frk0/trouser/n/i/k/30-foilcombo9661-trend-level-original-imag3zggwyrwtbz9.jpeg?q=70",
+      "productName": "Palazzos",
+      "discount": "From &#8377;199",
+      "brand": "Shoppping Shuru?"
+    }
+  ],
+  "topDealProducts": [
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=70",
+      "productName": "Apple iPads",
+      "discount": "Shop Now!",
+      "brand": "Liquid Retina Display"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kp2y2kw0/instant-camera/h/w/b/treasure-box-mini-11-instax-mini-11-fujifilm-original-imag3efzpdg2mgr6.jpeg?q=70",
+      "productName": "Instax cameras",
+      "discount": "From &#8377;3,999",
+      "brand": "Capture your unique moments"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/l1v1uvk0/tablet/9/c/s/6650034-realme-original-imagdc5ac3y7xgxh.jpeg?q=70",
+      "productName": "realme Pad",
+      "discount": "From &#8377;9,999",
+      "brand": "#1 Best Seller In Charts!"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/k6qsn0w0/tablet/3/q/z/lenovo-za5g0047in-original-imafp4w7qvpnprv5.jpeg?q=70",
+      "productName": "Lenovo Tab MB",
+      "discount": "Shop Now!",
+      "brand": "8-inch|Upto 64GB"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kpvivm80/tablet/r/x/9/sm-t225nzaains-samsung-original-imag4yrg8vahczvr.jpeg?q=70",
+      "productName": "Samsug Galaxy tabs",
+      "discount": "Shop Now!",
+      "brand": "Best Sellers|Most Wishlishted"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kgqvlow0/battery-charger/d/a/7/apple-mhjd3hn-a-original-imafwwwfg5xgcctm.jpeg?q=70",
+      "productName": "Buy Now",
+      "discount": "From &#8377;99",
+      "brand": "Ambrane,MI & More"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70",
+      "productName": "Mirrorless Cameras",
+      "discount": "From &#8377;57,999",
+      "brand": "NCEMI | Product Exch"
+    },
+    {
+      "img": "https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg?q=70",
+      "productName": "Mirrorless Cameras",
+      "discount": "From &#8377;57,999",
+      "brand": "NCEMI | Product Exch"
+    }
   ]
+  
 }
