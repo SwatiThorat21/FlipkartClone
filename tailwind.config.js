@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html","./code.js"],
   theme: {
     extend: {},
     colors: {
@@ -20,6 +20,7 @@ module.exports = {
     },
     boxShadow: {
       gray: "0 1px 1px 0 rgb(0 0 0 / 16%)",
+      btnShadow: "1px 1px 5px rgba(0,0,0,0.1)",
     },
   },
   plugins: [],

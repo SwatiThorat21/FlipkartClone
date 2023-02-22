@@ -606,8 +606,8 @@ video {
   width: 33.333333%;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
+.w-16 {
+  width: 4rem;
 }
 
 .w-20 {
@@ -616,6 +616,10 @@ video {
 
 .w-3 {
   width: 0.75rem;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-full {
@@ -632,10 +636,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .whitespace-nowrap {
@@ -684,6 +684,11 @@ video {
   padding-right: 0.625rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -692,6 +697,16 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .pl-1 {
@@ -739,6 +754,11 @@ video {
   color: rgb(40 116 240 / var(--tw-text-opacity));
 }
 
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(71 69 69 / var(--tw-text-opacity));
+}
+
 .text-white {
   color: rgb(255 255 255);;
 }
@@ -752,6 +772,15 @@ video {
   --tw-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
   --tw-shadow-colored: 0 1px 1px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-btnShadow {
+  --tw-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  --tw-shadow-colored: 1px 1px 5px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-gray {
   --tw-shadow-color: #474545;
   --tw-shadow: var(--tw-shadow-colored);
 }

@@ -12,8 +12,8 @@ function renderProducts() {
 
       data.featuredProducts.forEach((product) => {
         featuredProductsHTML += `
-        <div id="featuredProduct_item">
-        <div id="featuredProduct_image" class="w-14">
+        <div id="featuredProduct_item" class="py-3 px-1">
+        <div id="featuredProduct_image" class="w-16">
             <img src="${product.img}"/>
         </div>
         <p class="text-sm font-semibold text-gray">
