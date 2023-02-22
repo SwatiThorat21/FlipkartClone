@@ -598,8 +598,16 @@ video {
   height: 2.25rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-1\/3 {
   width: 33.333333%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .w-20 {
@@ -624,6 +632,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .whitespace-nowrap {
@@ -737,8 +749,8 @@ video {
 }
 
 .shadow-gray {
-  --tw-shadow: 1px 1px 1px rgba(0,0,0,0.15);
-  --tw-shadow-colored: 1px 1px 1px var(--tw-shadow-color);
+  --tw-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+  --tw-shadow-colored: 0 1px 1px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-shadow-color: #474545;
   --tw-shadow: var(--tw-shadow-colored);
