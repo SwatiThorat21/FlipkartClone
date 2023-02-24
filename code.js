@@ -33,7 +33,7 @@ function renderProducts() {
 
       data.slidingImages.forEach((img) => {
         slidingImgHTML += `
-        <div class="w-full">
+        <div class="w-full -translate-x-full">
             <img src="${img.imgSrc}"
               alt="" class="w-full">
         </div>
