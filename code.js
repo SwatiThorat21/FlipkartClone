@@ -39,7 +39,7 @@ function renderProducts() {
         </div>
         `;
       });
-      SlidingImgContainer.insertAdjacentHTML("beforeend", slidingImgHTML);
+      SlidingImgContainer.innerHTML = slidingImgHTML;
     });
 }
 
