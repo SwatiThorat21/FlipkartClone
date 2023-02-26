@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="glider.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -64,22 +66,43 @@
                 </div>
             </div>
 
-            <div id="imageSliderContainer"
-                class="relative my-0 mx-auto w-max px-2 py-0 mt-0.5 bg-sliderBgColor">
+            <div id="imageSliderContainer" class="relative my-0 mx-auto w-max px-2 py-0 mt-0.5 bg-sliderBgColor">
                 <div>
-                    <div id="imageBtnContainer" class="absolute w-wSlidingImg flex justify-between items-center h-full">
-                        <button id="preve_imageBtn"
-                            class="py-7 px-3 bg-white border-none outline-none shadow-btnShadow rounded-r">
+                    <div id="imageBtnContainer" class="absolute w-wSlidingImg flex justify-between items-center h-full mx-4">
+                        <button id="preve_imageBtn" aria-label="Previous"
+                            class="glider-prev py-7 px-3 bg-white border-none outline-none shadow-btnShadow rounded-r z-10">
                             <i class="fa-solid fa-angle-left text-threexl left-0"></i>
                         </button>
-                        <button id="next_imageBtn" class="py-7 px-3 bg-white border-none outline-none shadow-btnShadow rounded-l">
+                        <button id="next_imageBtn" aria-label="Next"
+                            class="glider-next py-7 px-3 bg-white border-none outline-none shadow-btnShadow rounded-l z-10">
                             <i class="fa-solid fa-angle-right text-threexl"></i>
                         </button>
                     </div>
 
-                    <div id="imageContainer" class="flex py-2.5 px-0">
+                    <div class="glider-contain">
+                        <div class="glider" id="SlidingImgContainer">
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=1"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=2"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=3"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=4"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=5"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=6"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=7"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=8"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=9"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=10"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=11"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=12"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=13"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=14"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=15"></div>
+                            <div><img alt="Test" src="http://placehold.it/300x300?text=16"></div>
+                        </div>
+                        
                        
                     </div>
+
+
                 </div>
             </div>
 
@@ -88,7 +111,7 @@
 
     </div>
 
-
+    <script src="glider.js"></script>
     <script src="code.js"></script>
 </body>
 

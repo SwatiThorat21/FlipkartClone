@@ -8,7 +8,7 @@ function renderProducts() {
     .then((data) => {
       console.log(data);
       let featureProductList = document.getElementById("featureProduct_list");
-      let SlidingImgContainer = document.getElementById("imageContainer");
+      let SlidingImgContainer = document.getElementById("SlidingImgContainer");
       let featuredProductsHTML = "";
       let slidingImgHTML = "";
 
@@ -33,13 +33,39 @@ function renderProducts() {
 
       data.slidingImages.forEach((img) => {
         slidingImgHTML += `
-        <div class="w-full -translate-x-full">
-            <img src="${img.imgSrc}"
-              alt="" class="w-full">
+        <div>
+           <img alt="Test" src="${img.imgSrc}">
         </div>
         `;
       });
       SlidingImgContainer.innerHTML = slidingImgHTML;
+
+      // window.addEventListener("load", function () {
+      //   new Glider(document.querySelector(".glider"), {
+      //     slidesToShow: 1,
+      //     draggable: true,
+      //     arrows: {
+      //       prev: ".glider-prev",
+      //       next: ".glider-next",
+      //     },
+      //   });
+      // });
+      window.addEventListener("load", function () {
+        
+        window._ = new Glider(document.querySelector(".glider"), {
+          slidesToShow: 1, //'auto',
+          slidesToScroll: 1,
+          itemWidth: 150,
+          draggable: true,
+          scrollLock: false,
+          rewind: true,
+          arrows: {
+            prev: ".glider-prev",
+            next: ".glider-next",
+          }
+          
+        });
+      });
     });
 }
 
