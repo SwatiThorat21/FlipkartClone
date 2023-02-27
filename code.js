@@ -9,8 +9,12 @@ function renderProducts() {
       console.log(data);
       let featureProductList = document.getElementById("featureProduct_list");
       let SlidingImgContainer = document.getElementById("SlidingImgContainer");
+      let bestofElctronicProductList = document.getElementById(
+        "bestofElctronicProductList"
+      );
       let featuredProductsHTML = "";
       let slidingImgHTML = "";
+      let electronicsProductHTML = "";
 
       data.featuredProducts.forEach((product) => {
         featuredProductsHTML += `
@@ -40,18 +44,7 @@ function renderProducts() {
       });
       SlidingImgContainer.innerHTML = slidingImgHTML;
 
-      // window.addEventListener("load", function () {
-      //   new Glider(document.querySelector(".glider"), {
-      //     slidesToShow: 1,
-      //     draggable: true,
-      //     arrows: {
-      //       prev: ".glider-prev",
-      //       next: ".glider-next",
-      //     },
-      //   });
-      // });
       window.addEventListener("load", function () {
-        
         window._ = new Glider(document.querySelector(".glider"), {
           slidesToShow: 1, //'auto',
           slidesToScroll: 1,
@@ -62,10 +55,25 @@ function renderProducts() {
           arrows: {
             prev: ".glider-prev",
             next: ".glider-next",
-          }
-          
+          },
         });
       });
+
+      data.electronicsProductData.forEach((elePro) => {
+           electronicsProductHTML += `
+           <div class="w-productContainer">
+              <div class="w-productImg h-52 relative my-0 mx-auto">
+                  <img src="${elePro.img}"alt="" class="absolute top-0 bottom-0 left-0 right-0 m-auto opacity-100 max-w-moreProImg max-h-full">
+              </div>
+              <div>
+                  <p class="text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${elePro.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${elePro.discount}</p>
+                  <p class="opacity-60 pt-2">${elePro.brand}</p>
+              </div> 
+            </div>
+        `;
+      });
+      bestofElctronicProductList.insertAdjacentHTML("beforeend",electronicsProductHTML);
     });
 }
 
