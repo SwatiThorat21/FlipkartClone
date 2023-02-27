@@ -45,10 +45,10 @@ module.exports = {
       wSlidingImg: "99.1%",
       featureList: "1280px",
       max: "max-content",
-      moreProImg: "99%",
-      productContainer: "230px",
+      moreProImg: "232px",
       productImg: "200px",
       w20:"6.2rem",
+    
       
     },
     backgroundImage: {

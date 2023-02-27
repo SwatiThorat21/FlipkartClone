@@ -626,6 +626,10 @@ video {
   display: flex;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
 .h-14 {
   height: 3.5rem;
 }
@@ -668,19 +672,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.w-moreProImg {
-  width: 99%;
-}
-
-.w-productContainer {
-  width: 230px;
 }
 
 .w-productImg {
