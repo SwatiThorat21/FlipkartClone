@@ -37,31 +37,29 @@ function renderProducts() {
 
       data.slidingImages.forEach((img) => {
         slidingImgHTML += `
-        <div>
+        <div class="swiper-slide">
            <img alt="Test" src="${img.imgSrc}">
         </div>
         `;
       });
       SlidingImgContainer.innerHTML = slidingImgHTML;
 
-      window.addEventListener("load", function () {
-        window._ = new Glider(document.querySelector(".glider"), {
-          slidesToShow: 1, //'auto',
-          slidesToScroll: 1,
-          itemWidth: 150,
-          draggable: true,
-          scrollLock: false,
-          rewind: true,
-          arrows: {
-            prev: ".glider-prev",
-            next: ".glider-next",
-          },
-        });
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
       });
 
       data.electronicsProductData.forEach((elePro) => {
-           electronicsProductHTML += `
-           <div class="w-productContainer py-6 px-4">
+        electronicsProductHTML += `
+           <div class="eleProducts w-productContainer py-6 px-4">
               <div class="w-productImg h-52 relative my-0 mx-auto">
                   <img src="${elePro.img}"alt="" class="absolute top-0 bottom-0 left-0 right-0 m-auto opacity-100 max-w-moreProImg max-h-full">
               </div>
@@ -73,7 +71,10 @@ function renderProducts() {
             </div>
         `;
       });
-      bestofElctronicProductList.insertAdjacentHTML("beforeend",electronicsProductHTML);
+      bestofElctronicProductList.insertAdjacentHTML(
+        "beforeend",
+        electronicsProductHTML
+      );
     });
 }
 

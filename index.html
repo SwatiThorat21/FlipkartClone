@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" type="text/css" href="glider.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -70,18 +71,18 @@
                 <div>
                     <div id="imageBtnContainer" class="absolute w-wSlidingImg flex justify-between items-center h-full">
                         <button id="preve_imageBtn" aria-label="Previous"
-                            class="glider-prev py-7 px-3 bg-white border-none outline-none shadow-btnShadow rounded-r z-10">
-                            <i class="fa-solid fa-angle-left text-threexl left-0"></i>
+                            class="swiper-button-prev">
+                            <!-- <i class="fa-solid fa-angle-left text-threexl left-0"></i> -->
                         </button>
                         <button id="next_imageBtn" aria-label="Next"
-                            class="glider-next py-7 px-3 bg-white border-none outline-none shadow-btnShadow rounded-l z-10">
-                            <i class="fa-solid fa-angle-right text-threexl"></i>
+                            class="swiper-button-next">
+                            <!-- <i class="fa-solid fa-angle-right text-threexl"></i> -->
                         </button>
                     </div>
 
-                    <div class="glider-contain">
-                        <div class="glider py-2 px-0" id="SlidingImgContainer">
-                            <div><img alt="Test" src="http://placehold.it/300x300?text=1"></div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper py-2 px-0" id="SlidingImgContainer">
+
 
                         </div>
                     </div>
@@ -103,9 +104,9 @@
                 </div>
 
                 <div id="imageBtnContainer" class="absolute w-full flex justify-end items-center h-1/2">
-                    
+
                     <button id="next_imageBtn" aria-label="Next"
-                        class="glider-next py-7 px-3 bg-white border-none outline-none shadow-btnShadow rounded-l z-10">
+                        class="py-7 px-3 bg-white border-none outline-none shadow-btnShadow rounded-l z-10">
                         <i class="fa-solid fa-angle-right text-threexl"></i>
                     </button>
                 </div>
@@ -119,7 +120,7 @@
 
     </div>
 
-    <script src="glider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="code.js"></script>
 </body>
 

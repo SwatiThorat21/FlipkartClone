@@ -42,7 +42,7 @@ module.exports = {
       w20: "80px",
       w3: "12px",
       w16: "64px",
-      wSlidingImg: "99.1%",
+      wSlidingImg: "99.7%",
       featureList: "1280px",
       max: "max-content",
       moreProImg: "232px",
