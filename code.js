@@ -44,7 +44,7 @@ function renderProducts() {
       });
       SlidingImgContainer.innerHTML = slidingImgHTML;
 
-      var swiper = new Swiper(".mySwiper", {
+      new Swiper(".mySwiper", {
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: {
@@ -59,7 +59,7 @@ function renderProducts() {
 
       data.electronicsProductData.forEach((elePro) => {
         electronicsProductHTML += `
-           <div class="eleProducts w-productContainer py-6 px-4">
+           <div class="swiper-slide">
               <div class="w-productImg h-52 relative my-0 mx-auto">
                   <img src="${elePro.img}"alt="" class="absolute top-0 bottom-0 left-0 right-0 m-auto opacity-100 max-w-moreProImg max-h-full">
               </div>
@@ -75,6 +75,16 @@ function renderProducts() {
         "beforeend",
         electronicsProductHTML
       );
+
+      new Swiper(".bestEleProductList", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
     });
 }
 

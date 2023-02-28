@@ -38,6 +38,7 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
 .swiper-button-prev{
   padding: 50px 25px 50px 25px;
   background-color: white;
@@ -49,9 +50,7 @@ body {
   left: 0;
   color: black;
   top: 40%;
- 
-
-}
+ }
 
 .swiper-button-next{
   padding: 50px 25px 50px 25px;
