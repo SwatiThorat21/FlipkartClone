@@ -61,7 +61,7 @@ function renderProducts() {
 
       data.electronicsProductData.forEach((elePro) => {
            electronicsProductHTML += `
-           <div class="w-productContainer">
+           <div class="w-productContainer py-6 px-4">
               <div class="w-productImg h-52 relative my-0 mx-auto">
                   <img src="${elePro.img}"alt="" class="absolute top-0 bottom-0 left-0 right-0 m-auto opacity-100 max-w-moreProImg max-h-full">
               </div>
