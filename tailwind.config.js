@@ -9,7 +9,7 @@ module.exports = {
       white: "rgb(255 255 255);",
       gray: "#474545",
       sliderBgColor: "#f1f3f6",
-      green: "#388e3c"
+      green: "#388e3c",
     },
     fontFamily: {
       roboto: "Roboto,Arial,sans-serif;",
@@ -27,6 +27,7 @@ module.exports = {
       featureGray: "0 1px 1px 0 rgb(0 0 0 / 16%)",
       btnShadow: "1px 1px 5px rgba(0,0,0,0.1)",
       viewAllBtn: "0 2px 4px 0 rgb(0 0 0 / 20%);",
+      productContain: "0 2px 4px 0 rgb(0 0 0 / 8%)"
     },
     maxWidth: {
       maxSliderImg: "1680px",
@@ -47,15 +48,16 @@ module.exports = {
       max: "max-content",
       moreProImg: "232px",
       productImg: "200px",
-      w20:"6.2rem",
-    
-      
+      w20: "6.2rem",
+      w60: "235px",
     },
     backgroundImage: {
       bestOfElectronics:
-        "url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90')",
+        "url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90')",
+
+      beautyFoodToysProducts:
+        "url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90')",
     },
-   
   },
   plugins: [],
 };

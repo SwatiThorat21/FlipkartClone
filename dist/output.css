@@ -521,18 +521,6 @@ video {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -541,16 +529,8 @@ video {
   top: 0.125rem;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .m-0 {
   margin: 0px;
-}
-
-.m-auto {
-  margin: auto;
 }
 
 .mx-5 {
@@ -576,6 +556,11 @@ video {
 .my-2\.5 {
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .ml-0 {
@@ -618,16 +603,16 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .inline-block {
   display: inline-block;
 }
 
 .flex {
   display: flex;
-}
-
-.h-1\/2 {
-  height: 50%;
 }
 
 .h-14 {
@@ -646,10 +631,6 @@ video {
   height: 0.875rem;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
 .h-80 {
   height: 20rem;
 }
@@ -662,20 +643,12 @@ video {
   height: 100%;
 }
 
-.max-h-full {
-  max-height: 100%;
-}
-
 .w-featureList {
   width: 1280px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-productImg {
-  width: 200px;
 }
 
 .w-w16 {
@@ -690,6 +663,10 @@ video {
   width: 12px;
 }
 
+.w-w60 {
+  width: 235px;
+}
+
 .w-wSlidingImg {
   width: 99.7%;
 }
@@ -702,8 +679,9 @@ video {
   max-width: 564px;
 }
 
-.max-w-moreProImg {
-  max-width: 100%;
+.translate-x-0 {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -712,10 +690,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
@@ -742,11 +716,6 @@ video {
   border-radius: 0.125rem;
 }
 
-.rounded-l {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
 .border-none {
   border-style: none;
 }
@@ -765,8 +734,12 @@ video {
   background-color: rgb(255 255 255);;
 }
 
+.bg-beautyFoodToysProducts {
+  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
+}
+
 .bg-bestOfElectronics {
-  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90');
+  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
 }
 
 .bg-bottom {
@@ -807,16 +780,6 @@ video {
   padding-right: 0.625rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -845,16 +808,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
 }
 
 .pb-32 {
@@ -899,10 +852,6 @@ video {
 
 .text-textBase {
   font-size: 1rem;
-}
-
-.text-threexl {
-  font-size: 2rem;
 }
 
 .text-xs {
@@ -961,18 +910,8 @@ video {
   color: rgb(255 229 0 / var(--tw-text-opacity));
 }
 
-.opacity-100 {
-  opacity: 1;
-}
-
 .opacity-60 {
   opacity: 0.6;
-}
-
-.shadow-btnShadow {
-  --tw-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-  --tw-shadow-colored: 1px 1px 5px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-featureGray {
@@ -983,6 +922,12 @@ video {
 
 .shadow-viewAllBtn {
   --tw-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);;
+  --tw-shadow-colored: 0 2px 4px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-productContain {
+  --tw-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
   --tw-shadow-colored: 0 2px 4px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }

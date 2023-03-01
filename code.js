@@ -9,12 +9,14 @@ function renderProducts() {
       console.log(data);
       let featureProductList = document.getElementById("featureProduct_list");
       let SlidingImgContainer = document.getElementById("SlidingImgContainer");
-      let bestofElctronicProductList = document.getElementById(
-        "bestofElctronicProductList"
-      );
+      let bestofElctronicProductList = document.getElementById("bestofElctronicProductList");
+      let beautyFoodToysProductList = document.getElementById("beautyFoodToysProductList");
+      let summerProductsList = document.getElementById("summerProductsList");
       let featuredProductsHTML = "";
       let slidingImgHTML = "";
       let electronicsProductHTML = "";
+      let beautyFoodToysProductHTML = "";
+      let summerProductHTML = "";
 
       data.featuredProducts.forEach((product) => {
         featuredProductsHTML += `
@@ -38,7 +40,7 @@ function renderProducts() {
       data.slidingImages.forEach((img) => {
         slidingImgHTML += `
         <div class="swiper-slide">
-           <img alt="Test" src="${img.imgSrc}">
+           <img alt="Test" src="${img.imgSrc}" class="w-full h-full">
         </div>
         `;
       });
@@ -59,12 +61,12 @@ function renderProducts() {
 
       data.electronicsProductData.forEach((elePro) => {
         electronicsProductHTML += `
-           <div class="swiper-slide">
-              <div class="w-productImg h-52 relative my-0 mx-auto">
-                  <img src="${elePro.img}"alt="" class="absolute top-0 bottom-0 left-0 right-0 m-auto opacity-100 max-w-moreProImg max-h-full">
+           <div class="swiper-slide productListContain" id="productListContain">
+              <div class="productImg">
+                  <img src="${elePro.img}"alt="product image">
               </div>
               <div>
-                  <p class="text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${elePro.productName}</p>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${elePro.productName}</p>
                   <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${elePro.discount}</p>
                   <p class="opacity-60 pt-2">${elePro.brand}</p>
               </div> 
@@ -77,9 +79,60 @@ function renderProducts() {
       );
 
       new Swiper(".bestEleProductList", {
-        slidesPerView: 3,
-        centeredSlides: true,
-        spaceBetween: 30,
+        slidesPerView: 6,
+        centeredSlides: false,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      data.beautyFoodToysProducts.forEach((product) => {
+        beautyFoodToysProductHTML += `
+           <div class="swiper-slide productListContain" id="productListContain">
+              <div class="productImg">
+                  <img src="${product.img}"alt="product image">
+              </div>
+              <div>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
+                  <p class="opacity-60 pt-2">${product.brand}</p>
+              </div> 
+            </div>
+        `;
+      });
+      beautyFoodToysProductList.insertAdjacentHTML("beforeend",beautyFoodToysProductHTML);
+
+      new Swiper(".beautyFoodToysProductList", {
+        slidesPerView: 6,
+        centeredSlides: false,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      data.summerProducts.forEach((product) => {
+        summerProductHTML += `
+           <div class="swiper-slide productListContain" id="productListContain">
+              <div class="productImg">
+                  <img src="${product.img}"alt="product image">
+              </div>
+              <div>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
+              </div> 
+            </div>
+        `;
+      });
+      summerProductsList.insertAdjacentHTML("beforeend",summerProductHTML);
+
+      new Swiper(".summerProductsList", {
+        slidesPerView: 6,
+        centeredSlides: false,
+        spaceBetween: 20,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
