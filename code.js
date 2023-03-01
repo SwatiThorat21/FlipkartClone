@@ -68,7 +68,7 @@ function renderProducts() {
               <div>
                   <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${elePro.productName}</p>
                   <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${elePro.discount}</p>
-                  <p class="opacity-60 pt-2">${elePro.brand}</p>
+                  <p class="opacity-60 pt-2 text-sm">${elePro.brand}</p>
               </div> 
             </div>
         `;
@@ -97,7 +97,7 @@ function renderProducts() {
               <div>
                   <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
                   <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
-                  <p class="opacity-60 pt-2">${product.brand}</p>
+                  <p class="opacity-60 pt-2 text-sm">${product.brand}</p>
               </div> 
             </div>
         `;
