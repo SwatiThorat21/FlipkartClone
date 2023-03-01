@@ -12,11 +12,17 @@ function renderProducts() {
       let bestofElctronicProductList = document.getElementById("bestofElctronicProductList");
       let beautyFoodToysProductList = document.getElementById("beautyFoodToysProductList");
       let summerProductsList = document.getElementById("summerProductsList");
+      let homeKitchenProductsList = document.getElementById("homeKitchenProductsList");
+      let fashionProductsList = document.getElementById("fashionProductsList");
+      let topDealProductsList = document.getElementById("topDealProductsList");
       let featuredProductsHTML = "";
       let slidingImgHTML = "";
       let electronicsProductHTML = "";
       let beautyFoodToysProductHTML = "";
       let summerProductHTML = "";
+      let homeKitchenProductHTML = "";
+      let fashionProductHTML = "";
+      let topDealProductHTML = "";
 
       data.featuredProducts.forEach((product) => {
         featuredProductsHTML += `
@@ -138,6 +144,88 @@ function renderProducts() {
           prevEl: ".swiper-button-prev",
         },
       });
+
+      data.HomeKitchenProducts.forEach((product) => {
+        homeKitchenProductHTML += `
+           <div class="swiper-slide productListContain" id="productListContain">
+              <div class="productImg">
+                  <img src="${product.img}"alt="product image">
+              </div>
+              <div>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
+                  <p class="opacity-60 pt-2 text-sm">${product.brand}</p>
+              </div> 
+            </div>
+        `;
+      });
+      homeKitchenProductsList.insertAdjacentHTML("beforeend",homeKitchenProductHTML);
+
+      new Swiper(".homeKitchenProductsList", {
+        slidesPerView: 6,
+        centeredSlides: false,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+
+      data.fashionProducts.forEach((product) => {
+        fashionProductHTML += `
+           <div class="swiper-slide productListContain" id="productListContain">
+              <div class="productImg">
+                  <img src="${product.img}"alt="product image">
+              </div>
+              <div>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
+                  <p class="opacity-60 pt-2 text-sm">${product.brand}</p>
+              </div> 
+            </div>
+        `;
+      });
+      fashionProductsList.insertAdjacentHTML("beforeend",fashionProductHTML);
+
+      new Swiper(".fashionProductsList", {
+        slidesPerView: 6,
+        centeredSlides: false,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+ 
+      data.topDealProducts.forEach((product) => {
+        topDealProductHTML += `
+           <div class="swiper-slide productListContain" id="productListContain">
+              <div class="productImg">
+                  <img src="${product.img}"alt="product image">
+              </div>
+              <div>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
+                  <p class="opacity-60 pt-2 text-sm">${product.brand}</p>
+              </div> 
+            </div>
+        `;
+      });
+      topDealProductsList.insertAdjacentHTML("beforeend",topDealProductHTML);
+
+      new Swiper(".topDealProductsList", {
+        slidesPerView: 6,
+        centeredSlides: false,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+
+
     });
 }
 
