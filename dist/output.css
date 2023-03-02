@@ -533,6 +533,16 @@ video {
   margin: 0px;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -548,6 +558,11 @@ video {
   margin-bottom: 0px;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -558,9 +573,20 @@ video {
   margin-bottom: 0.625rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2\.5 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .ml-0 {
@@ -577,6 +603,10 @@ video {
 
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .mr-7 {
@@ -603,12 +633,8 @@ video {
   margin-top: 1.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .inline-block {
@@ -692,6 +718,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -720,8 +750,31 @@ video {
   border-radius: 0.125rem;
 }
 
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.border-r {
+  border-right-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
 .border-none {
   border-style: none;
+}
+
+.border-blackBorder {
+  --tw-border-opacity: 1;
+  border-color: rgb(51 51 51 / var(--tw-border-opacity));
+}
+
+.border-grayBorder {
+  --tw-border-opacity: 1;
+  border-color: rgb(221 221 221 / var(--tw-border-opacity));
 }
 
 .bg-blue {
@@ -738,20 +791,20 @@ video {
   background-color: rgb(255 255 255);;
 }
 
-.bg-beautyFoodToysProducts {
-  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
-}
-
-.bg-bestOfElectronics {
-  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
-}
-
 .bg-bottom {
   background-position: bottom;
 }
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-0 {
@@ -789,6 +842,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -814,6 +872,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .pb-32 {
   padding-bottom: 8rem;
 }
@@ -830,8 +893,16 @@ video {
   padding-top: 1.75rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-top {
+  vertical-align: top;
 }
 
 .font-roboto {
@@ -862,6 +933,14 @@ video {
   font-size: 0.75rem;
 }
 
+.text-xxs {
+  font-size: 11px;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -882,8 +961,20 @@ video {
   line-height: 2.5rem;
 }
 
+.leading-4 {
+  line-height: 1rem;
+}
+
 .leading-5 {
   line-height: 1.25rem;
+}
+
+.tracking-normal {
+  letter-spacing: 0em;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
 }
 
 .tracking-wide {
@@ -895,6 +986,16 @@ video {
   color: rgb(40 116 240 / var(--tw-text-opacity));
 }
 
+.text-footerFont {
+  --tw-text-opacity: 1;
+  color: rgb(86 86 86 / var(--tw-text-opacity));
+}
+
+.text-footerFont2 {
+  --tw-text-opacity: 1;
+  color: rgb(135 135 135 / var(--tw-text-opacity));
+}
+
 .text-gray {
   --tw-text-opacity: 1;
   color: rgb(71 69 69 / var(--tw-text-opacity));
@@ -903,6 +1004,11 @@ video {
 .text-green {
   --tw-text-opacity: 1;
   color: rgb(56 142 60 / var(--tw-text-opacity));
+}
+
+.text-topStories {
+  --tw-text-opacity: 1;
+  color: rgb(132 132 132 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -924,14 +1030,14 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-viewAllBtn {
-  --tw-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);;
+.shadow-productContain {
+  --tw-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
   --tw-shadow-colored: 0 2px 4px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-productContain {
-  --tw-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+.shadow-viewAllBtn {
+  --tw-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);;
   --tw-shadow-colored: 0 2px 4px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
