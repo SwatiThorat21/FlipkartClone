@@ -14,8 +14,10 @@ module.exports = {
       footerFont: "#565656",
       topStories: "#848484",
       blackBorder: "#333",
-      footerFont2: "#878787"
-    
+      footerFont2: "#878787",
+      footerBg: "#172337",
+      footerBorder: "#454d5e",
+      footerBlue: "#2874f0",
     },
     fontFamily: {
       roboto: "Roboto,Arial,sans-serif;",
@@ -57,6 +59,19 @@ module.exports = {
       productImg: "200px",
       w20: "6.2rem",
       w60: "235px",
+      wFooter: "90%",
+    },
+    backgroundImage: {
+      eleProducts:
+        "url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90')",
+      beautyProducts:
+        "url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90')",
+      homeKitchenProducts:
+        "url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90')",
+      fashionProducts:
+        "url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/31d46a8fd93eeedd.jpg?q=90')",
+      topDealProducts:
+        "url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/86e6d52663901503.jpg?q=90')",
     },
   },
   plugins: [],

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -26,11 +27,11 @@
             <div class="logo_Container w-w20">
                 <div class="w-w20 relative top-0.5">
                     <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
-                        class="w-full" />
+                        class="w-full hover:cursor-pointer" />
                 </div>
                 <div class="flex text-xs whitespace-nowrap relative">
                     <!-- <a href="https://www.flipkart.com/plus"> -->
-                    <p class="m-0 text-xs font-roboto italic text-white flex">Explore <span
+                    <p class="m-0 text-xs font-roboto italic text-white flex hover:underline decoration-white cursor-pointer">Explore <span
                             class="text-yellow ml-1 text-xs font-semibold">Plus</span>
                         <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
                             class="w-w3 h-3.5 m-0 ml-0.5" />
@@ -43,24 +44,24 @@
                 class="search_container flex justify-between items-center max-w-maxSearchBar w-full h-9 bg-white my-0 mr-7 ml-3 rounded-sm py-0 px-2.5">
                 <form class="w-full">
                     <input type="text" placeholder="Search for products brands and more"
-                        class="w-full text-sm border-none outline-none font-roboto" />
+                        class="w-full text-sm border-none outline-none font-roboto" title="Search for products brands and more"/>
                 </form>
                 <i class="fa-solid fa-magnifying-glass text-blue text-lg"></i>
             </div>
-            <div class="bg-white py-1 px-10 rounded-sm text-blue font-semibold text-belowBase mx-5">Login</div>
-            <div class="text-base leading-5 tracking-wide text-white font-semibold py-0 mx-5 my-2.5">Become a Seller
+            <div class="bg-white py-1 px-10 rounded-sm text-blue font-semibold text-belowBase mx-5 hover:cursor-pointer">Login</div>
+            <div class="text-base leading-5 tracking-wide text-white font-semibold py-0 mx-5 my-2.5 hover:cursor-pointer">Become a Seller
             </div>
-            <div class="text-base leading-5 tracking-wide text-white font-semibold py-0 mx-5 my-2.5">More<i
+            <div class="text-base leading-5 tracking-wide text-white font-semibold py-0 mx-5 my-2.5 hover:cursor-pointer">More<i
                     class="fa-solid fa-angle-down icon_more pl-1 text-xs"></i></div>
             <div class="flex text-base font-semibold text-white mx-5 items-center "><i
                     class="fa-solid fa-cart-shopping"></i>
-                <p class="px-1.5">Cart</p>
+                <p class="px-1.5 hover:cursor-pointer">Cart</p>
             </div>
         </header>
 
         <div class="main_container bg-sliderBgColor">
 
-            <div class="flex items-center justify-center h-28 w-full shadow-featureGray" id="featuredProducts">
+            <div class="flex items-center justify-center h-28 w-full shadow-featureGray bg-white" id="featuredProducts">
                 <div id="featureProduct_list"
                     class="flex justify-between h-full max-w-maxFeatureList w-featureList items-center">
 
@@ -84,14 +85,15 @@
                     </div>
                 </div>
             </div>
+
             <div id="productsContainer" class="bg-sliderBgColor p-2">
                 <div
                     class="bestofElectronic_Contianer bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
                     <div
-                        class="bg-bestOfElectronics flex flex-col justify-center bg-bottom w-w60 bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
+                        class="bg-eleProducts flex flex-col justify-center bg-bottom w-w60 bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
                         <div class="text-text3Xl leading-10 font-normal font-roboto">Best of Electronics</div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20">VIEW
+                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -112,10 +114,10 @@
                 <div
                     class="beautyFoodToysProducts_Contianer bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
                     <div
-                        class="bg-beautyFoodToysProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
+                        class="bg-beautyProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
                         <div class="text-text3Xl leading-10 font-normal font-roboto">Beauty, Food, Toys & more</div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20">VIEW
+                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -139,7 +141,7 @@
                         class="bg-summerProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
                         <div class="text-text3Xl leading-10 font-normal font-roboto">Shop for a Cool Summer</div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20">VIEW
+                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -163,7 +165,7 @@
                         class="bg-homeKitchenProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
                         <div class="text-text3Xl leading-10 font-normal font-roboto">Home & Kitchen Essentials</div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20">VIEW
+                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -187,7 +189,7 @@
                         class="bg-fashionProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
                         <div class="text-text3Xl leading-10 font-normal font-roboto">Fashion Top Deals </div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20">VIEW
+                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -211,7 +213,7 @@
                         class="bg-topDealProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
                         <div class="text-text3Xl leading-10 font-normal font-roboto">Top Deals </div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20">VIEW
+                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -230,55 +232,81 @@
                 </div>
             </div>
 
-            <div id="topStories" class="bg-white border-y border-solid border-grayBorder mt-6">
+            <div id="footer" class="bg-white border-y border-solid border-grayBorder mt-6">
                 <div class="flex flex-wrap w-full font-roboto text-xs text-left">
-                    <div class="inline-block align-top text-footerFont text-left p-6 my-0 mx-auto tracking-normal">
+                    <div class="inline-block align-top text-footerFont text-left p-6 my-0 mx-auto tracking-normal leading-5">
                         <div class="text-topStories font-semibold mt-3.5 py-3.5 px-0 text-xs">
                             <h3>Top Stories:<span class="text-footerFont ml-0.5">Brand Directory</span></h3>
                         </div>
-                        <div class="my-1 mx-0">
+                        <div class="my-1 mx-0 hover:cursor-pointer">
                             <p><span class="text-topStories mr-1 font-roboto">MOST SEARCHED FOR ON FLIPKART:</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Axis Bank Super Elite Credit Card</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Primebook Laptops</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Bounce Infinity E1</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Buy Laptop on EMI </span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Infinix Zero Ultra</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">OPPO Reno8 5G</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">OPPO Reno8 Pro 5G</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Fresh Flower Bouquet</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Holi Hampers</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Holi Gifts</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Bouquet</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Oneplus Monitors</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Sell Old Mobile Phones</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Premium Laptops</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Electronics Store</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Phone cover</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Infinix INBook Y1 Plus</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Okaya Eletric Vehicles</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">baguss electric scooter</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Oppo Reno7 Pro 5G</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 13</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 13 Pro </span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 13 Pro Max</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 13 Mini</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Google Pixel 6a covers</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Quick</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Ampere Magnus</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Help Center</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Online Boat Store</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Covers from Rs 99</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Track Orders</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Manage</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Orders</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Return Orders</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Gift Cards Store</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Axis Bank Credit Card</span>
-                                    <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Pay Later</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Axis Bank
+                                    Super Elite Credit Card</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Primebook
+                                    Laptops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Bounce Infinity
+                                    E1</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Buy Laptop on EMI
+                                </span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Infinix Zero
+                                    Ultra</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">OPPO Reno8 5G</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">OPPO Reno8 Pro
+                                    5G</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Fresh Flower
+                                    Bouquet</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Holi Hampers</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Holi Gifts</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Bouquet</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Oneplus
+                                    Monitors</span>
+                                <span class="py-0 pr-1.5 border-r border-blackBorder border-solid">Sell Old Mobile
+                                    Phones</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Premium
+                                    Laptops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Electronics
+                                    Store</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Phone cover</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Infinix INBook Y1
+                                    Plus</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Okaya Eletric
+                                    Vehicles</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">baguss electric
+                                    scooter</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Oppo Reno7 Pro
+                                    5G</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 13</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 13 Pro </span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 13 Pro
+                                    Max</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 13 Mini</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Google Pixel 6a
+                                    covers</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Quick</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Ampere Magnus</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Help
+                                    Center</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Online Boat
+                                    Store</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Covers from Rs
+                                    99</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Track
+                                    Orders</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart
+                                    Manage</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Orders</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Return
+                                    Orders</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Gift Cards
+                                    Store</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Axis Bank
+                                    Credit Card</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Flipkart Pay
+                                    Later</span>
                             </p>
                         </div>
-                        <div>
-                            <p><span  class="text-topStories mr-1 font-roboto">MOBILES:</span>
+                        <div class="hover:cursor-pointer">
+                            <p><span class="text-topStories mr-1 font-roboto">MOBILES:</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 12 64GB</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 12 Pro 512GB</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Vivo Y91i</span>
@@ -299,7 +327,7 @@
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Samsung A31</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Realme X2</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 11</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone 11 Pro</span>
+                                <span class="py-0 pr-1.5 border-r border-blackBorder border-solid">iPhone 11 Pro</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Mobile Cover</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Mobile Offers</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">iPhone x</span>
@@ -310,43 +338,56 @@
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Oppo Mobile</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Vivo Mobile</span>
                         </div>
-                        <div>
+                        <div class="hover:cursor-pointer">
                             <p><span class="text-topStories mr-1 font-roboto">CAMERA:</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">GoPro Action Camera</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">GoPro Action
+                                    Camera</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Nikon Camera</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Canon Camera</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Sony Camera</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Canon DSLR</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Nikon DSLR</span>
                         </div>
-                        <div>
+                        <div class="hover:cursor-pointer">
                             <p><span class="text-topStories mr-1 font-roboto">LAPTOPS:</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">MacBook Pro M2</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Premium Laptops</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">acer Ryzen 3 Dual Core 3250U</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">ASUS zenbook 14 OLED (2022)</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Realme Book Prime Core i5 11th Gen</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Microsoft Surface</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Go Premium 128GB</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Branded Laptops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Premium
+                                    Laptops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">acer Ryzen 3 Dual
+                                    Core 3250U</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">ASUS zenbook 14 OLED
+                                    (2022)</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Realme Book Prime
+                                    Core i5 11th Gen</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Microsoft
+                                    Surface</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Go Premium
+                                    128GB</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Branded
+                                    Laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Apple laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Acer Laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Lenevo Laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Dell Laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Asus</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Laptops</span>
+                                <span class="py-0 pr-1.5 border-r border-blackBorder border-solid">Laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">HP Laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Gaming Laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">2 in 1 Laptops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">LAptops</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Dell latest laptops</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">HP latest laptops</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Infinix INBook Y1</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Dell latest
+                                    laptops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">HP latest
+                                    laptops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Infinix INBook
+                                    Y1</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Plus</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Microsoft Laptops</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">12th Gen Intel Core Laptops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Microsoft
+                                    Laptops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">12th Gen Intel Core
+                                    Laptops</span>
                         </div>
-                        <div>
+                        <div class="hover:cursor-pointer">
                             <p><span class="text-topStories mr-1 font-roboto">TVS:</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Nokia TV</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Panasonic TV</span>
@@ -358,34 +399,45 @@
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">TV</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Sony TV</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Samsung TV</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Andriod Television</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Andriod
+                                    Television</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Iffalcon TV</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Mi TV</span>
                         </div>
-                        <div>
+                        <div class="hover:cursor-pointer">
                             <p><span class="text-topStories mr-1 font-roboto">LARGE APPLIANCES:</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">TV & Appliances End of Season Sale</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">TV & Appliances End
+                                    of Season Sale</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Television</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Washing</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Machines</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Refrigerators</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Air Conditioners</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Electric Cooker</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Electric Jug(Heater)</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Induction cooktops</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Air
+                                    Conditioners</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Electric
+                                    Cooker</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Electric
+                                    Jug(Heater)</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Induction
+                                    cooktops</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Inverters</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">stabilizer</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Irons/Iron Box</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Mixer Grinder juicer</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Mixer Grinder
+                                    juicer</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Wet Grinders</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Chimneys</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Microwave ovens</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Vacuum Cleaners</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Water Purifiers</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Microwave
+                                    ovens</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Vacuum
+                                    Cleaners</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Water
+                                    Purifiers</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Fan</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">MarQ Customer Care</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">MarQ Customer
+                                    Care</span>
                         </div>
-                        <div>
+                        <div class="hover:cursor-pointer">
                             <p><span class="text-topStories mr-1 font-roboto">CLOTHING:</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Men Shirts</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Kurta Pajama</span>
@@ -395,9 +447,11 @@
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Saree</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Dresses</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Kids Dresses</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Designer Salwar Suits</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Designer Salwar
+                                    Suits</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Bra</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Designer Kurtis</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Designer
+                                    Kurtis</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Track</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Pant</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Men Kurtas</span>
@@ -408,7 +462,7 @@
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Gloves</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Nighty</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Maxi Dresses</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Anarkali</span>
+                                <span class="py-0 pr-1.5 border-r border-blackBorder border-solid">Anarkali</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Gowns</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Culottes</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Salwar suits</span>
@@ -416,35 +470,49 @@
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Desiner Sarres</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Leggings</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Shorts</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Georgette Sarees</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Georgette
+                                    Sarees</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Ethinic wear</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Briefs & trunks</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Briefs &
+                                    trunks</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Nike Wawtches</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Ascot Tile</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Corset Tops Tunics</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Corset Tops
+                                    Tunics</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Leather PU</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Skirts</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Corset tops camisoles</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Women magneta searings</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">No coller jackets</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Green dress material</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Black patiala kurta set</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Men camel shoes</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Corset tops
+                                    camisoles</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Women magneta
+                                    searings</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">No coller
+                                    jackets</span>
+                                <span class="py-0 pr-1.5 border-r border-blackBorder border-solid">Green dress
+                                    material</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Black patiala kurta
+                                    set</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Men camel
+                                    shoes</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Black pathani</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">tassel Sarees</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Khaki dresses</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Kids formal dresses</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Kids formal
+                                    dresses</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Mauve shirts</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Women henley</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">uppada pattu sarees</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">uppada pattu
+                                    sarees</span>
                                 <span class="py-0 px-1.5 border-r border-blackBorder border-solid">Leoard dresses</span>
-                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">sleeveless shrugs</span>
+                                <span class="py-0 px-1.5 border-r border-blackBorder border-solid">sleeveless
+                                    shrugs</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="inline-block align-top w-full py-0 px-6 text-footerFont2 leading-4 text-xxs mt-8 mx-0 mb-4 font-roboto">
-                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Flipkart: The One-stop Shopping Destination</h2>
+                <div
+                    class="inline-block align-top w-full py-0 px-6 text-footerFont2 leading-4 text-xxs mt-8 mx-0 mb-4 font-roboto">
+                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Flipkart: The One-stop
+                        Shopping Destination</h2>
                     <p>E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store
                         to
                         another in search of the latest phone when you can find it on the Internet in a single click?
@@ -480,7 +548,8 @@
                         Flipkart
                         Plus member. In short, earn more when you shop more!
                     </p><br>
-                    <p>What's more, you can even use the Flipkart supercoins for a number of exciting services, like:<br>
+                    <p>What's more, you can even use the Flipkart supercoins for a number of exciting services,
+                        like:<br>
                         An annual Zomato Gold membership<br>
                         An annual Hotstar Premium membership<br>
                         6 months Gaana plus subscription<br>
@@ -508,7 +577,8 @@
                         partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More
                         power to all our shoppers! Terms and conditions apply.
                     </p><br>
-                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Mobile Exchange Offers</h2>
+                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Mobile Exchange Offers
+                    </h2>
                     <p>Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a
                         new
                         one after the Flipkart experts calculate the value of your old phone, provided it is in a
@@ -519,7 +589,8 @@
                         for
                         an exchange wherever possible. Terms and conditions apply.
                     </p><br>
-                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Why Can You Buy From Flipkart?</h2>
+                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Why Can You Buy From
+                        Flipkart?</h2>
                     <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Mobile Phones</h2>
                     <p>From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there.
                         Whether
@@ -539,7 +610,8 @@
                         and replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of
                         post-purchase problems, with door-to-door services.
                     </p><br>
-                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Electronic Devices and Accessories</h2>
+                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Electronic Devices and
+                        Accessories</h2>
                     <p>When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating
                         systems,
                         hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized
@@ -585,7 +657,8 @@
                         Sony,
                         Daikin, and Hitachi among many others.
                     </p><br>
-                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Small Home Appliances</h2>
+                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Small Home Appliances
+                    </h2>
                     <p>Find handy and practical home appliances designed to make your life simpler: electric kettles,
                         OTGs,
                         microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving
@@ -640,7 +713,8 @@
                         comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson &
                         Johnson: we host only the most-trusted names in the business for your baby.
                     </p><br>
-                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Books, Sports and Games</h2>
+                    <h2 class="text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">Books, Sports and Games
+                    </h2>
                     <p>Work hard and no play? We don't believe in that. Get access to best-selling fiction and
                         non-fiction
                         books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming
@@ -657,6 +731,100 @@
                         our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only. Terms and
                         conditions apply.
                     </p>
+                </div>
+                <div class="bg-footerBg text-xs">
+                    <div class="flex flex-row flex-wrap ml-16 w-wFooter pt-10 text-white">
+                        <div class="flex-1">
+                            <h3 class="text-footerFont2 font-normal mb-2.5">ABOUT</h3>
+                            <P class="leading-6 hover:underline decoration-white cursor-pointer">Contact Us</P>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">About Us</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Careers</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Flipkart Stories</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Press</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Flipkart Wholesale</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Corporate</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Information</p>
+                        </div>
+
+                        <div class="flex-1">
+                            <h3 class="text-footerFont2 font-normal mb-2.5">HELP</h3>
+                            <P class="leading-6 hover:underline decoration-white cursor-pointer">Payments</P>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Shipping</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Cancellation &</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Returns</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">FAQ</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Report</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Infringement</p>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-footerFont2 font-normal mb-2.5">POLICY</h3>
+                            <P class="leading-6 hover:underline decoration-white cursor-pointer">Return Policy</P>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Terms Of Use</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Security</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Privacy</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Sitemap</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">EPR Compliance</p>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-footerFont2 font-normal mb-2.5">SOCIAL</h3>
+                            <P class="leading-6 hover:underline decoration-white cursor-pointer">Facebook</P>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Twitter</p>
+                            <p class="leading-6 hover:underline decoration-white cursor-pointer">Youtube</p>
+                        </div>
+                        <div class="flex-1">
+                            <div class="border-l border-footerBorder border-solid py-0 px-6">
+                                <h3 class="text-footerFont2 font-normal mb-2.5">Mail Us</h3>
+                                <p class="whitespace-nowrap m-0 p-0">Flipkart Internet Private Limited,<br>
+                                    Buildings Alyssa, Begonia &<br>
+                                    Clove Embassy Tech Village,<br>
+                                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                                    Bengaluru, 560103,<br>
+                                    Karnataka, India</p>
+                            </div>
+                        </div>
+                        <div class="flex-1 mr-0">
+                            <div class="mb-2.5 pl-3.5">
+                                <h3 class="text-footerFont2 font-normal mb-2.5">Registered Office Address</h3>
+                                <p class="whitespace-nowrap m-0 p-0">Flipkart Internet Private Limited,<br>
+                                    Buildings Alyssa, Begonia &<br>
+                                    Clove Embassy Tech Village,<br>
+                                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                                    Bengaluru, 560103,<br>
+                                    Karnataka, India<br>
+                                    CIN : U51109KA2012PTC066107<br>
+                                    Telephone: <span class="text-footerBlue hover:cursor-pointer">044-45614700</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="border-t border-solid border-footerBorder py-6 px-0 mt-10 w-full flex justify-evenly items-center text-sm">
+                            <div class="flex">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K"
+                                    alt="">
+                                    <span class="text-white ml-2 hover:cursor-pointer">Become a Seller</span>
+                            </div>
+                            <div class="flex">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                                    alt="">
+                                    <span class="text-white ml-2 hover:cursor-pointer">Advertise</span>
+                            </div>
+                            <div class="flex">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg=="
+                                    alt="">
+                                    <span class="text-white ml-2 hover:cursor-pointer">Gift Cards</span>
+                            </div>
+                            <div class="flex">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="
+                                    alt="">
+                                    <span class="text-white ml-2 hover:cursor-pointer">Help Center</span>
+                            </div>
+                            <span class="text-white">© 2007-2023 Flipkart.com</span>
+                            <div>
+                                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

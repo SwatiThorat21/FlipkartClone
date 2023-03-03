@@ -601,8 +601,20 @@ video {
   margin-left: 0.25rem;
 }
 
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.mr-0 {
+  margin-right: 0px;
 }
 
 .mr-1 {
@@ -619,6 +631,10 @@ video {
 
 .mt-0\.5 {
   margin-top: 0.125rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-3 {
@@ -697,6 +713,10 @@ video {
   width: 235px;
 }
 
+.w-wFooter {
+  width: 90%;
+}
+
 .w-wSlidingImg {
   width: 99.7%;
 }
@@ -709,9 +729,21 @@ video {
   max-width: 564px;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .translate-x-0 {
   --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -732,6 +764,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .overflow-hidden {
@@ -755,8 +791,16 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-l {
+  border-left-width: 1px;
+}
+
 .border-r {
   border-right-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-solid {
@@ -772,6 +816,11 @@ video {
   border-color: rgb(51 51 51 / var(--tw-border-opacity));
 }
 
+.border-footerBorder {
+  --tw-border-opacity: 1;
+  border-color: rgb(69 77 94 / var(--tw-border-opacity));
+}
+
 .border-grayBorder {
   --tw-border-opacity: 1;
   border-color: rgb(221 221 221 / var(--tw-border-opacity));
@@ -780,6 +829,11 @@ video {
 .bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(40 116 240 / var(--tw-bg-opacity));
+}
+
+.bg-footerBg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 35 55 / var(--tw-bg-opacity));
 }
 
 .bg-sliderBgColor {
@@ -791,12 +845,36 @@ video {
   background-color: rgb(255 255 255);;
 }
 
+.bg-beautyProducts {
+  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
+}
+
+.bg-eleProducts {
+  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90');
+}
+
+.bg-fashionProducts {
+  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/31d46a8fd93eeedd.jpg?q=90');
+}
+
+.bg-homeKitchenProducts {
+  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90');
+}
+
+.bg-topDealProducts {
+  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/86e6d52663901503.jpg?q=90');
+}
+
 .bg-bottom {
   background-position: bottom;
 }
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .p-2 {
@@ -877,12 +955,37 @@ video {
   padding-bottom: 0.875rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-32 {
   padding-bottom: 8rem;
 }
 
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-3\.5 {
+  padding-left: 0.875rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-1\.5 {
+  padding-right: 0.375rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pt-2 {
@@ -969,6 +1072,10 @@ video {
   line-height: 1.25rem;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
 .tracking-normal {
   letter-spacing: 0em;
 }
@@ -982,6 +1089,11 @@ video {
 }
 
 .text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(40 116 240 / var(--tw-text-opacity));
+}
+
+.text-footerBlue {
   --tw-text-opacity: 1;
   color: rgb(40 116 240 / var(--tw-text-opacity));
 }
@@ -1020,6 +1132,10 @@ video {
   color: rgb(255 229 0 / var(--tw-text-opacity));
 }
 
+.decoration-white {
+  text-decoration-color: rgb(255 255 255);;
+}
+
 .opacity-60 {
   opacity: 0.6;
 }
@@ -1045,4 +1161,33 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.hover\:text-blue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(40 116 240 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }

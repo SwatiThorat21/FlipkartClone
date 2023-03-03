@@ -27,10 +27,10 @@ function renderProducts() {
       data.featuredProducts.forEach((product) => {
         featuredProductsHTML += `
         <div id="featuredProduct_item" class="py-3 px-1 flex flex-col items-center">
-        <div id="featuredProduct_image" class="w-w16">
+        <div id="featuredProduct_image" class="w-w16 hover:cursor-pointer">
             <img src="${product.img}"/>
         </div>
-        <p class="text-sm font-semibold text-gray">
+        <p class="text-sm font-semibold text-gray hover:text-blue cursor-pointer ">
             ${product.name}
             ${
               product.subNavigation
@@ -46,7 +46,7 @@ function renderProducts() {
       data.slidingImages.forEach((img) => {
         slidingImgHTML += `
         <div class="swiper-slide">
-           <img alt="Test" src="${img.imgSrc}" class="w-full h-full">
+           <img alt="Test" src="${img.imgSrc}" class="w-full h-full hover:cursor-pointer">
         </div>
         `;
       });
@@ -69,12 +69,12 @@ function renderProducts() {
         electronicsProductHTML += `
            <div class="swiper-slide productListContain" id="productListContain">
               <div class="productImg">
-                  <img src="${elePro.img}"alt="product image">
+                  <img src="${elePro.img}"alt="product image" class="hover:scale-105 transition-all duration-100 cursor-pointer">
               </div>
               <div>
-                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${elePro.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${elePro.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm">${elePro.brand}</p>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${elePro.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${elePro.discount}">${elePro.discount}</p>
+                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${elePro.brand}</p>
               </div> 
             </div>
         `;
@@ -98,14 +98,14 @@ function renderProducts() {
         beautyFoodToysProductHTML += `
            <div class="swiper-slide productListContain" id="productListContain">
               <div class="productImg">
-                  <img src="${product.img}"alt="product image">
+                  <img src="${product.img}"alt="product image" class="hover:scale-105 transition-all duration-100 cursor-pointer">
               </div>
               <div>
-                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm">${product.brand}</p>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
+                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
               </div> 
-            </div>
+          </div>
         `;
       });
       beautyFoodToysProductList.insertAdjacentHTML("beforeend",beautyFoodToysProductHTML);
@@ -124,11 +124,11 @@ function renderProducts() {
         summerProductHTML += `
            <div class="swiper-slide productListContain" id="productListContain">
               <div class="productImg">
-                  <img src="${product.img}"alt="product image">
+                  <img src="${product.img}"alt="product image" class="hover:scale-105 transition-all duration-100 cursor-pointer">
               </div>
               <div>
-                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer" title="${product.discount}">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer">${product.discount}</p>
               </div> 
             </div>
         `;
@@ -149,12 +149,12 @@ function renderProducts() {
         homeKitchenProductHTML += `
            <div class="swiper-slide productListContain" id="productListContain">
               <div class="productImg">
-                  <img src="${product.img}"alt="product image">
+                  <img src="${product.img}"alt="product image" class="hover:scale-105 transition-all duration-100 cursor-pointer">
               </div>
               <div>
-                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm">${product.brand}</p>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
+                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
               </div> 
             </div>
         `;
@@ -176,12 +176,12 @@ function renderProducts() {
         fashionProductHTML += `
            <div class="swiper-slide productListContain" id="productListContain">
               <div class="productImg">
-                  <img src="${product.img}"alt="product image">
+                  <img src="${product.img}"alt="product image" class="hover:scale-105 transition-all duration-100 cursor-pointer">
               </div>
               <div>
-                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm">${product.brand}</p>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
+                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
               </div> 
             </div>
         `;
@@ -202,12 +202,12 @@ function renderProducts() {
         topDealProductHTML += `
            <div class="swiper-slide productListContain" id="productListContain">
               <div class="productImg">
-                  <img src="${product.img}"alt="product image">
+                  <img src="${product.img}"alt="product image" class="hover:scale-105 transition-all duration-100 cursor-pointer">
               </div>
               <div>
-                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2">${product.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm">${product.brand}</p>
+                  <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${product.productName}</p>
+                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
+                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
               </div> 
             </div>
         `;
