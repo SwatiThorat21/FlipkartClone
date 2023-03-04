@@ -18,6 +18,8 @@ module.exports = {
       footerBg: "#172337",
       footerBorder: "#454d5e",
       footerBlue: "#2874f0",
+      transparent: "transparent",
+      loginArrow: "#f0f0f0",
     },
     fontFamily: {
       roboto: "Roboto,Arial,sans-serif;",
@@ -37,6 +39,7 @@ module.exports = {
       btnShadow: "1px 1px 5px rgba(0,0,0,0.1)",
       viewAllBtn: "0 2px 4px 0 rgb(0 0 0 / 20%);",
       productContain: "0 2px 4px 0 rgb(0 0 0 / 8%)",
+      loginContain: "0 4px 16px 0 rgb(0 0 0 / 20%)"
     },
     maxWidth: {
       maxSliderImg: "1680px",
@@ -60,6 +63,7 @@ module.exports = {
       w20: "6.2rem",
       w60: "235px",
       wFooter: "90%",
+      
     },
     backgroundImage: {
       eleProducts:
