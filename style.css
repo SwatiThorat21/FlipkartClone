@@ -86,3 +86,64 @@ body {
   max-width: 232px;
   max-height: 100%;
 }
+.login_menu{
+  top: 2.7rem;
+}
+
+.login_menu::before{
+  position: absolute;
+  content: "";
+  margin-left: 110px;
+  top: -11px;
+  border-top:0px solid transparent;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 12px solid white;
+}
+
+.loginBtn_container:hover .login_menu{
+  display: block;
+}
+
+.icon_more{
+  font-size: 10px;
+  transition: transform 0.5s;
+}
+.more_link:hover .icon_more{
+  transform: rotate(-180deg);
+}
+
+.more_menu{
+  content: "";
+  background-color: transparent;
+  transform: translateX(-35%);  
+  padding-top:10px;
+  /* display: none; */
+ z-index: 12; 
+ display: none;
+  
+}
+
+.more_menu::before{
+  position: absolute;
+  content: "";
+  margin-left: 95px;
+  top:1px;
+  border-top:0px solid transparent;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 12px solid white; 
+}
+.more_menu_list{
+  background-color: white;
+  height: 100%;
+  box-shadow: -5px -0px 5px rgba(0,0,0,0.1),
+  5px 5px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.more_link:hover .more_menu{
+  display: block;
+}

@@ -19,7 +19,9 @@ module.exports = {
       footerBorder: "#454d5e",
       footerBlue: "#2874f0",
       transparent: "transparent",
-      loginArrow: "#f0f0f0",
+      loginContain: "#f0f0f0",
+      loginbg: "#fafafa",
+      black: "#212121"
     },
     fontFamily: {
       roboto: "Roboto,Arial,sans-serif;",
@@ -63,6 +65,7 @@ module.exports = {
       w20: "6.2rem",
       w60: "235px",
       wFooter: "90%",
+      w72: "17rem"
       
     },
     backgroundImage: {
