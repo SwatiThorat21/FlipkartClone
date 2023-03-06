@@ -541,14 +541,6 @@ video {
   top: 3rem;
 }
 
-.-top-4 {
-  top: -1rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -665,10 +657,6 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -713,8 +701,8 @@ video {
   height: 0.875rem;
 }
 
-.h-56 {
-  height: 14rem;
+.h-60 {
+  height: 15rem;
 }
 
 .h-80 {
@@ -727,10 +715,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-60 {
-  height: 15rem;
 }
 
 .w-featureList {
@@ -757,16 +741,16 @@ video {
   width: 235px;
 }
 
+.w-w72 {
+  width: 17rem;
+}
+
 .w-wFooter {
   width: 90%;
 }
 
 .w-wSlidingImg {
   width: 99.7%;
-}
-
-.w-w72 {
-  width: 17rem;
 }
 
 .max-w-maxFeatureList {
@@ -878,10 +862,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
 .border-solid {
   border-style: solid;
 }
@@ -907,11 +887,6 @@ video {
 
 .border-transparent {
   border-color: transparent;
-}
-
-.border-loginContain {
-  --tw-border-opacity: 1;
-  border-color: rgb(240 240 240 / var(--tw-border-opacity));
 }
 
 .border-b-loginContain {
@@ -1318,4 +1293,19 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:h-44 {
+    height: 11rem;
+  }
+
+  .\32xl\:w-w44 {
+    width: 176px;
+  }
+
+  .\32xl\:px-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
 }

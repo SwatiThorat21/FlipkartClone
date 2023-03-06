@@ -65,7 +65,8 @@ module.exports = {
       w20: "6.2rem",
       w60: "235px",
       wFooter: "90%",
-      w72: "17rem"
+      w72: "17rem",
+      w44: "176px"
       
     },
     backgroundImage: {

@@ -30,7 +30,7 @@ function renderProducts() {
         <div id="featuredProduct_image" class="w-w16 hover:cursor-pointer">
             <img src="${product.img}"/>
         </div>
-        <p class="text-sm font-semibold text-gray hover:text-blue cursor-pointer ">
+        <p class="featureProductname text-sm font-semibold text-gray hover:text-blue cursor-pointer ">
             ${product.name}
             ${
               product.subNavigation
@@ -92,6 +92,29 @@ function renderProducts() {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+          1399: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+          1280: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          }
+        
+        }
       });
 
       data.beautyFoodToysProducts.forEach((product) => {
@@ -118,6 +141,29 @@ function renderProducts() {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+          1399: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+          1280: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          }
+        
+        }
       });
 
       data.summerProducts.forEach((product) => {
@@ -143,6 +189,29 @@ function renderProducts() {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+          1399: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+          1280: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          }
+        
+        }
       });
 
       data.HomeKitchenProducts.forEach((product) => {
@@ -169,6 +238,29 @@ function renderProducts() {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+          1399: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+          1280: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          }
+        
+        }
       });
 
 
@@ -196,6 +288,29 @@ function renderProducts() {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+          1399: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+          1280: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          }
+        
+        }
       });
  
       data.topDealProducts.forEach((product) => {
@@ -222,6 +337,29 @@ function renderProducts() {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+          1399: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+          1280: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          }
+        
+        }
       });
 
 

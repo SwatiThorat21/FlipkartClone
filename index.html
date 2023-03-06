@@ -25,17 +25,17 @@
 
         <header class="bg-blue h-14 w-full top-0 flex items-center justify-center my-0 mx-auto font-roboto">
             <div class="logo_Container w-w20">
-                <div class="w-w20 relative top-0.5">
+                <div class="w-full relative top-0.5">
                     <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
                         class="w-full hover:cursor-pointer" />
                 </div>
                 <div class="flex text-xs whitespace-nowrap relative">
                     <!-- <a href="https://www.flipkart.com/plus"> -->
                     <p
-                        class="m-0 text-xs font-roboto italic text-white flex hover:underline decoration-white cursor-pointer">
-                        Explore <span class="text-yellow ml-1 text-xs font-semibold">Plus</span>
+                        class="explorePlus m-0 text-xs font-roboto italic text-white flex hover:underline decoration-white cursor-pointer">
+                        Explore <span class="explorePlus text-yellow ml-1 text-xs font-semibold">Plus</span>
                         <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
-                            class="w-w3 h-3.5 m-0 ml-0.5" />
+                            class="explorePlusImg w-w3 h-3.5 m-0 ml-0.5" />
                     </p>
                     </a>
                 </div>
@@ -43,7 +43,7 @@
 
             <div
                 class="search_container flex justify-between items-center max-w-maxSearchBar w-full h-9 bg-white my-0 mr-7 ml-3 rounded-sm py-0 px-2.5">
-                <form class="w-full">
+                <form class="w-full" id="searchBar">
                     <input type="text" placeholder="Search for products brands and more"
                         class="w-full text-sm border-none outline-none font-roboto"
                         title="Search for products brands and more" />
@@ -52,7 +52,7 @@
             </div>
             <div class="loginBtn_container relative">
                 <div
-                    class="bg-white py-1 px-10 rounded-sm text-blue font-semibold text-belowBase mx-5 hover:cursor-pointer">
+                    class="loginBtn bg-white py-1 px-10 rounded-sm text-blue font-semibold text-belowBase mx-5 hover:cursor-pointer">
                     Login</div>
                 <!-- <div class="left-1/2 -translate-x-2.5 bottom-full border-b-loginArrow border-solid border-transparent"></div> -->
                 <div
@@ -161,11 +161,11 @@
 
 
             <div
-                class="text-base leading-5 tracking-wide text-white font-semibold py-0 mx-5 my-2.5 hover:cursor-pointer">
+                class=" seller text-textBase leading-5 tracking-wide text-white font-semibold py-0 mx-5 my-2.5 hover:cursor-pointer">
                 Become a Seller
             </div>
             <div
-                class="more_link text-base leading-5 tracking-wide text-white font-semibold py-0 mx-5 my-2.5 hover:cursor-pointer relative">
+                class="more_link text-textBase leading-5 tracking-wide text-white font-semibold py-0 mx-5 my-2.5 hover:cursor-pointer relative">
                 More<i class="fa-solid fa-angle-down icon_more pl-1 text-xs"></i>
                 <div class="more_menu absolute h-60 w-w72 p-4">
                     <div class="more_menu_list text-black text-sm font-normal">
@@ -226,7 +226,7 @@
                 </div>
 
             </div>
-            <div class="flex text-base font-semibold text-white mx-5 items-center "><i
+            <div class="cart flex text-textBase font-semibold text-white mx-5 items-center "><i
                     class="fa-solid fa-cart-shopping"></i>
                 <p class="px-1.5 hover:cursor-pointer">Cart</p>
             </div>
@@ -261,12 +261,12 @@
 
             <div id="productsContainer" class="bg-sliderBgColor p-2">
                 <div
-                    class="bestofElectronic_Contianer bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
+                    class="bestofElectronic_Contianer product_list bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
                     <div
-                        class="bg-eleProducts flex flex-col justify-center bg-bottom w-w60 bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
-                        <div class="text-text3Xl leading-10 font-normal font-roboto">Best of Electronics</div>
+                        class="bg-eleProducts flex flex-col justify-center bg-bottom w-w60 bg-no-repeat h-full px-2.5 pt-7 pb-32 items-center">
+                        <div class="productListHeading text-text3Xl leading-10 font-normal font-roboto">Best of Electronics</div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
+                            class="viewAllBtn mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -285,12 +285,12 @@
                 </div>
 
                 <div
-                    class="beautyFoodToysProducts_Contianer bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
+                    class="beautyFoodToysProducts_Contianer product_list bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
                     <div
-                        class="bg-beautyProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
-                        <div class="text-text3Xl leading-10 font-normal font-roboto">Beauty, Food, Toys & more</div>
+                        class="bg-beautyProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-full px-2.5 pt-7 pb-32 items-center">
+                        <div class="productListHeading text-text3Xl leading-10 font-normal font-roboto">Beauty, Food, Toys & more</div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
+                            class="viewAllBtn mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -309,12 +309,12 @@
                 </div>
 
                 <div
-                    class="summerProducts_Contianer bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
+                    class="summerProducts_Contianer product_list bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
                     <div
-                        class="bg-summerProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
-                        <div class="text-text3Xl leading-10 font-normal font-roboto">Shop for a Cool Summer</div>
+                        class="bg-summerProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-full px-2.5 pt-7 pb-32 items-center">
+                        <div class="productListHeading text-text3Xl leading-10 font-normal font-roboto">Shop for a Cool Summer</div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
+                            class="viewAllBtn mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -333,12 +333,12 @@
                 </div>
 
                 <div
-                    class="homeKitchenProducts_Contianer bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
+                    class="homeKitchenProducts_Contianer product_list bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
                     <div
-                        class="bg-homeKitchenProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
-                        <div class="text-text3Xl leading-10 font-normal font-roboto">Home & Kitchen Essentials</div>
+                        class="bg-homeKitchenProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-full px-2.5 pt-7 pb-32 items-center">
+                        <div class="productListHeading text-text3Xl leading-10 font-normal font-roboto">Home & Kitchen Essentials</div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
+                            class="viewAllBtn mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -357,12 +357,12 @@
                 </div>
 
                 <div
-                    class="fashionProducts_Contianer bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
+                    class="fashionProducts_Contianer product_list bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
                     <div
-                        class="bg-fashionProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
-                        <div class="text-text3Xl leading-10 font-normal font-roboto">Fashion Top Deals </div>
+                        class="bg-fashionProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-full px-2.5 pt-7 pb-32 items-center">
+                        <div class="productListHeading text-text3Xl leading-10 font-normal font-roboto">Fashion Top Deals </div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
+                            class="viewAllBtn mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
@@ -381,12 +381,12 @@
                 </div>
 
                 <div
-                    class="topDealProducts_Contianer bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
+                    class="topDealProducts_Contianer product_list bg-white h-80 text-center flex shadow-productContain mt-0 mx-2 mb-3">
                     <div
-                        class="bg-topDealProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-80 px-2.5 pt-7 pb-32 items-center">
-                        <div class="text-text3Xl leading-10 font-normal font-roboto">Top Deals </div>
+                        class="bg-topDealProducts flex flex-col justify-center w-w60 bg-bottom bg-no-repeat h-full px-2.5 pt-7 pb-32 items-center">
+                        <div class="productListHeading text-text3Xl leading-10 font-normal font-roboto">Top Deals </div>
                         <button
-                            class="mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
+                            class="viewAllBtn mt-6 bg-blue text-white shadow-viewAllBtn border-none inline-block py-2.5 px-5 rounded-sm text-sm w-w20 hover:cursor-pointer">VIEW
                             ALL</button>
                     </div>
 
