@@ -1294,18 +1294,3 @@ video {
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
-
-@media (min-width: 1536px) {
-  .\32xl\:h-44 {
-    height: 11rem;
-  }
-
-  .\32xl\:w-w44 {
-    width: 176px;
-  }
-
-  .\32xl\:px-9 {
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
-  }
-}

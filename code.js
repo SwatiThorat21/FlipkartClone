@@ -34,7 +34,7 @@ function renderProducts() {
             ${product.name}
             ${
               product.subNavigation
-                ? `<i class="fa-solid fa-angle-down text-xs"></i>`
+                ? `<i class="fa-solid fa-angle-down text-xs downAngle"></i>`
                 : ""
             }   
         </p>
@@ -73,8 +73,8 @@ function renderProducts() {
               </div>
               <div>
                   <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${elePro.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${elePro.discount}">${elePro.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${elePro.brand}</p>
+                  <p class="productDiscount text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${elePro.discount}">${elePro.discount}</p>
+                  <p class="productBrand opacity-60 pt-2 text-sm hover:cursor-pointer">${elePro.brand}</p>
               </div> 
             </div>
         `;
@@ -105,11 +105,19 @@ function renderProducts() {
             slidesPerView: 4,
             spaceBetween: 20,
           },
+          980: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
           768: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
           640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          340: {
             slidesPerView: 3,
             spaceBetween: 20,
           }
@@ -125,8 +133,8 @@ function renderProducts() {
               </div>
               <div>
                   <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
+                  <p class="productDiscount text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
+                  <p class="productBrand opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
               </div> 
           </div>
         `;
@@ -154,11 +162,19 @@ function renderProducts() {
             slidesPerView: 4,
             spaceBetween: 20,
           },
+          980: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
           768: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
           640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          340: {
             slidesPerView: 3,
             spaceBetween: 20,
           }
@@ -174,7 +190,7 @@ function renderProducts() {
               </div>
               <div>
                   <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer" title="${product.discount}">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer">${product.discount}</p>
+                  <p class="productDiscount text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer">${product.discount}</p>
               </div> 
             </div>
         `;
@@ -202,11 +218,19 @@ function renderProducts() {
             slidesPerView: 4,
             spaceBetween: 20,
           },
+          980: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
           768: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
           640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          340: {
             slidesPerView: 3,
             spaceBetween: 20,
           }
@@ -222,8 +246,8 @@ function renderProducts() {
               </div>
               <div>
                   <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
+                  <p class="productDiscount text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
+                  <p class="productBrand opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
               </div> 
             </div>
         `;
@@ -251,11 +275,19 @@ function renderProducts() {
             slidesPerView: 4,
             spaceBetween: 20,
           },
+          980: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
           768: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
           640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          340: {
             slidesPerView: 3,
             spaceBetween: 20,
           }
@@ -272,8 +304,8 @@ function renderProducts() {
               </div>
               <div>
                   <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
+                  <p class="productDiscount text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
+                  <p class="productBrand opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
               </div> 
             </div>
         `;
@@ -301,11 +333,19 @@ function renderProducts() {
             slidesPerView: 4,
             spaceBetween: 20,
           },
+          980: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
           768: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
           640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          340: {
             slidesPerView: 3,
             spaceBetween: 20,
           }
@@ -321,8 +361,8 @@ function renderProducts() {
               </div>
               <div>
                   <p class="productName text-sm font-medium mt-3.5 whitespace-nowrap overflow-hidden text-ellipsis hover:cursor-pointer">${product.productName}</p>
-                  <p class="text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
-                  <p class="opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
+                  <p class="productDiscount text-textBase whitespace-nowrap overflow-hidden text-ellipsis text-green pt-2 hover:cursor-pointer" title="${product.discount}">${product.discount}</p>
+                  <p class="productBrand opacity-60 pt-2 text-sm hover:cursor-pointer">${product.brand}</p>
               </div> 
             </div>
         `;
@@ -350,11 +390,19 @@ function renderProducts() {
             slidesPerView: 4,
             spaceBetween: 20,
           },
+          980: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
           768: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
           640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          340: {
             slidesPerView: 3,
             spaceBetween: 20,
           }
