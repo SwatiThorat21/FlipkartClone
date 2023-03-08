@@ -6,6 +6,6 @@ For CSS Tailwind Version 3.2.7 is used.
 Carousel is created using Swiper.JS Library.
 All data has been stored in the JSON file which is rendered by javascript.
 <hr>
-<img src="./Screenshotflipkart" alt="Flipkart">
+<img src="images/Screenshotflipkart.png" alt="Flipkart">
 
 
