@@ -9,10 +9,16 @@ function renderProducts() {
       console.log(data);
       let featureProductList = document.getElementById("featureProduct_list");
       let SlidingImgContainer = document.getElementById("SlidingImgContainer");
-      let bestofElctronicProductList = document.getElementById("bestofElctronicProductList");
-      let beautyFoodToysProductList = document.getElementById("beautyFoodToysProductList");
+      let bestofElctronicProductList = document.getElementById(
+        "bestofElctronicProductList"
+      );
+      let beautyFoodToysProductList = document.getElementById(
+        "beautyFoodToysProductList"
+      );
       let summerProductsList = document.getElementById("summerProductsList");
-      let homeKitchenProductsList = document.getElementById("homeKitchenProductsList");
+      let homeKitchenProductsList = document.getElementById(
+        "homeKitchenProductsList"
+      );
       let fashionProductsList = document.getElementById("fashionProductsList");
       let topDealProductsList = document.getElementById("topDealProductsList");
       let featuredProductsHTML = "";
@@ -120,9 +126,8 @@ function renderProducts() {
           340: {
             slidesPerView: 3,
             spaceBetween: 20,
-          }
-        
-        }
+          },
+        },
       });
 
       data.beautyFoodToysProducts.forEach((product) => {
@@ -139,7 +144,10 @@ function renderProducts() {
           </div>
         `;
       });
-      beautyFoodToysProductList.insertAdjacentHTML("beforeend",beautyFoodToysProductHTML);
+      beautyFoodToysProductList.insertAdjacentHTML(
+        "beforeend",
+        beautyFoodToysProductHTML
+      );
 
       new Swiper(".beautyFoodToysProductList", {
         slidesPerView: 6,
@@ -177,9 +185,8 @@ function renderProducts() {
           340: {
             slidesPerView: 3,
             spaceBetween: 20,
-          }
-        
-        }
+          },
+        },
       });
 
       data.summerProducts.forEach((product) => {
@@ -195,7 +202,7 @@ function renderProducts() {
             </div>
         `;
       });
-      summerProductsList.insertAdjacentHTML("beforeend",summerProductHTML);
+      summerProductsList.insertAdjacentHTML("beforeend", summerProductHTML);
 
       new Swiper(".summerProductsList", {
         slidesPerView: 6,
@@ -233,9 +240,8 @@ function renderProducts() {
           340: {
             slidesPerView: 3,
             spaceBetween: 20,
-          }
-        
-        }
+          },
+        },
       });
 
       data.HomeKitchenProducts.forEach((product) => {
@@ -252,7 +258,10 @@ function renderProducts() {
             </div>
         `;
       });
-      homeKitchenProductsList.insertAdjacentHTML("beforeend",homeKitchenProductHTML);
+      homeKitchenProductsList.insertAdjacentHTML(
+        "beforeend",
+        homeKitchenProductHTML
+      );
 
       new Swiper(".homeKitchenProductsList", {
         slidesPerView: 6,
@@ -290,11 +299,9 @@ function renderProducts() {
           340: {
             slidesPerView: 3,
             spaceBetween: 20,
-          }
-        
-        }
+          },
+        },
       });
-
 
       data.fashionProducts.forEach((product) => {
         fashionProductHTML += `
@@ -310,7 +317,7 @@ function renderProducts() {
             </div>
         `;
       });
-      fashionProductsList.insertAdjacentHTML("beforeend",fashionProductHTML);
+      fashionProductsList.insertAdjacentHTML("beforeend", fashionProductHTML);
 
       new Swiper(".fashionProductsList", {
         slidesPerView: 6,
@@ -348,11 +355,10 @@ function renderProducts() {
           340: {
             slidesPerView: 3,
             spaceBetween: 20,
-          }
-        
-        }
+          },
+        },
       });
- 
+
       data.topDealProducts.forEach((product) => {
         topDealProductHTML += `
            <div class="swiper-slide productListContain" id="productListContain">
@@ -367,7 +373,7 @@ function renderProducts() {
             </div>
         `;
       });
-      topDealProductsList.insertAdjacentHTML("beforeend",topDealProductHTML);
+      topDealProductsList.insertAdjacentHTML("beforeend", topDealProductHTML);
 
       new Swiper(".topDealProductsList", {
         slidesPerView: 6,
@@ -405,25 +411,30 @@ function renderProducts() {
           340: {
             slidesPerView: 3,
             spaceBetween: 20,
-          }
-        
-        }
+          },
+        },
       });
 
-      let mostSearchedProducts = document.getElementById('mostSearchedProducts');
-      let mostSearchedProductsHTML = "";
-
-      data.footerTopContent.forEach((productLink)=>{
-        mostSearchedProductsHTML += `
-        <p><span class="text-topStories mr-1 font-roboto">${productLink.title}</span>
-           <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${productLink.productName}</span>
-        </p> `
-      });
+      let topStoriesTitle = document.getElementById("topStoriesTitle");
+      let topStoriesTitleHTML = "";
+      let topStoriesProducts = document.getElementById("topStoriesProducts");
+      let topStoriesProductsHTML = "";
     
-      mostSearchedProducts.insertAdjacentHTML("beforeend",mostSearchedProductsHTML);
+      data.mostSearchedContentTitle.forEach((product) => {
+        topStoriesTitleHTML += `
+        <span class="text-topStories mr-1 font-roboto">${product.title}</span>
+          `;
+      });
+      topStoriesTitle.innerHTML = topStoriesTitleHTML;
 
-
-
+      data.mostsearchedProducts.forEach((product) => {
+        topStoriesProductsHTML += `
+        <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${product.productName}</span>
+          `;
+      });
+      topStoriesProducts.innerHTML = topStoriesProductsHTML;
+      
+      
     });
 }
 

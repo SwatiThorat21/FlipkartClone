@@ -429,12 +429,12 @@
       "brand": "NCEMI | Product Exch"
     }
   ],
-  "footerTopContentTitle":[
+  "mostSearchedContentTitle":[
     {
       "title":"MOST SEARCHED FOR ON FLIPKART:"
     }
   ],
-  "footerTopContentProducts":[
+  "mostsearchedProducts":[
     {
       "productName":"Flipkart Axis Bank Super Elite Credit Card"
     },
@@ -545,6 +545,209 @@
     },
     {
       "productName":"Flipkart Pay Later"
+    }
+  ],
+
+  "mobileProductsTitle":[
+    {
+      "title":"MOBILES:"
+    }
+  ],
+  "mobileProducts":[
+    {
+      "productName":"iPhone 12 64GB"
+    },
+    {
+      "productName":"iPhone 12 Pro 512GB"
+    },
+    {
+      "productName":"Vivo Y91i"
+    },
+    {
+      "productName":"Vivo Y11"
+    },
+    {
+      "productName":"Vivo Y50"
+    },
+    {
+      "productName":"OPPO Reno8 5G"
+    },
+    {
+      "productName":"OPPO Reno8"
+    },
+    {
+      "productName":"Pro 5G"
+    },
+    {
+      "productName":"Vivo Y12"
+    },
+    {
+      "productName":"Reno2F"
+    },
+    {
+      "productName":"Oppo A12"
+    },
+    {
+      "productName":"Reno2 F"
+    },
+    {
+      "productName":"Oppo A12"
+    },
+    {
+      "productName":"Oppo F15"
+    },
+    {
+      "productName":"Oppo A31"
+    },
+    {
+      "productName":"Samsung A71"
+    },
+    {
+      "productName":"Samsung A51"
+    },
+    {
+      "productName":"Samsung A31"
+    },
+    {
+      "productName":"Realme X2"
+    },
+    {
+      "productName":"iPhone 11"
+    },
+    {
+      "productName":"iPhone 11 Pro"
+    },
+    {
+      "productName":"Mobile Cover"
+    },
+    {
+      "productName":"Mobile Offers"
+    },
+    {
+      "productName":"iPhone x"
+    },
+    {
+      "productName":"4G Mobile"
+    },
+    {
+      "productName":"Nokia Mobile"
+    },
+    {
+      "productName":"Samsung Mobile"
+    },
+    {
+      "productName":"iPhone"
+    },
+    {
+      "productName":"Oppo Mobile"
+    },
+    {
+      "productName":"Vivo Mobile"
+    }    
+  ],
+  "cameraProductsTitle":[
+    {
+      "title":"CAMERA:"
+    }
+  ],
+  "cameraProducts":[
+    {
+      "productName":"GoPro Action Camera"
+    },
+    {
+      "productName":"Nikon Camera"
+    },
+    {
+      "productName":"Canon Camera"
+    },
+    {
+      "productName":"Sony Camera"
+    },
+    {
+      "productName":"Canon DSLR"
+    },
+    {
+      "productName":"Nikon DSLR"
+    }
+  ],
+  
+  "laptopProductsTitle":[
+    {
+      "title":"LAPTOPS:"
+    }
+  ],
+  "laptopProducts":[
+    {
+      "productName":"MacBook Pro M2"
+    },
+    {
+      "productName":"Premium Laptops"
+    },
+    {
+      "productName":"acer Ryzen 3 Dual Core 3250U"
+    },
+    {
+      "productName":"ASUS zenbook 14 OLED (2022)"
+    },
+    {
+      "productName":"Realme Book Prime Core i5 11th Gen"
+    },
+    {
+      "productName":"Microsoft Surface"
+    },
+    {
+      "productName":"Go Premium 128GB"
+    },
+    {
+      "productName":"Branded Laptops"
+    },
+    {
+      "productName":"Apple laptops"
+    },
+    {
+      "productName":"Acer Laptops"
+    },
+    {
+      "productName":"Lenevo Laptops"
+    },
+    {
+      "productName":"Dell Laptops"
+    },
+    {
+      "productName":"Asus"
+    },
+    {
+      "productName":"Laptops"
+    },
+    {
+      "productName":"HP Laptops"
+    },
+    {
+      "productName":"Gaming Laptops"
+    },
+    {
+      "productName":"2 in 1 Laptops"
+    },
+    {
+      "productName":"Laptops"
+    },
+    {
+      "productName":"Dell latest Laptops"
+    },
+    {
+      "productName":"HP latest Laptops"
+    },
+    {
+      "productName":"Infinix INBook Y1"
+    },
+    {
+      "productName":"Plus"
+    },
+    {
+      "productName":"Microsoft Laptops"
+    },
+    {
+      "productName":"12th Gen Intel Core Laptops"
     }
   ]
 }
