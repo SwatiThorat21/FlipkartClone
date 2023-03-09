@@ -419,6 +419,7 @@ function renderProducts() {
       let topStoriesTitleHTML = "";
       let topStoriesProducts = document.getElementById("topStoriesProducts");
       let topStoriesProductsHTML = "";
+      
     
       data.mostSearchedContentTitle.forEach((product) => {
         topStoriesTitleHTML += `
