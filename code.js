@@ -410,6 +410,18 @@ function renderProducts() {
         }
       });
 
+      let mostSearchedProducts = document.getElementById('mostSearchedProducts');
+      let mostSearchedProductsHTML = "";
+
+      data.footerTopContent.forEach((productLink)=>{
+        mostSearchedProductsHTML += `
+        <p><span class="text-topStories mr-1 font-roboto">${productLink.title}</span>
+           <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${productLink.productName}</span>
+        </p> `
+      });
+    
+      mostSearchedProducts.insertAdjacentHTML("beforeend",mostSearchedProductsHTML);
+
 
 
     });

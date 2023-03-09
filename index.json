@@ -429,10 +429,12 @@
       "brand": "NCEMI | Product Exch"
     }
   ],
-  "footerTopContent":[
+  "footerTopContentTitle":[
     {
       "title":"MOST SEARCHED FOR ON FLIPKART:"
-    },
+    }
+  ],
+  "footerTopContentProducts":[
     {
       "productName":"Flipkart Axis Bank Super Elite Credit Card"
     },
