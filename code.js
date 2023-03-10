@@ -419,8 +419,32 @@ function renderProducts() {
       let topStoriesTitleHTML = "";
       let topStoriesProducts = document.getElementById("topStoriesProducts");
       let topStoriesProductsHTML = "";
-      
-    
+      let mobileProductsTitle = document.getElementById('mobileProductsTitle');
+      let mobileProductsTitleHTML = "";
+      let mobileProducts = document.getElementById('mobileProducts');
+      let mobileProductsHTML = "";
+      let cameraProductsTitle = document.getElementById('cameraProductsTitle');
+      let cameraProductsTitleHTML = "";
+      let cameraProducts = document.getElementById('cameraProducts');
+      let cameraProductsHTML = "";
+      let laptopProductsTitle = document.getElementById('laptopProductsTitle');
+      let laptopProductsTitleHTML = "";
+      let laptopProducts = document.getElementById('laptopProducts');
+      let laptopProductsHTML = "";
+      let TVProductTitle = document.getElementById('TVProductTitle');
+      let TVProductTitleHTML = "";
+      let TVProducts = document.getElementById('TVProducts');
+      let TVProductsHTML = "";
+      let LargeAppliancesTitle = document.getElementById('LargeAppliancesTitle');
+      let LargeAppliancesTitleHTML = "";
+      let LargeAppliances = document.getElementById('LargeAppliances');
+      let LargeAppliancesHTML = "";
+      let clothingProductsTitle = document.getElementById('clothingProductsTitle');
+      let clothingProductsTitleHTML = "";
+      let clothingProducts = document.getElementById('clothingProducts');
+      let clothingProductsHTML = "";
+
+          
       data.mostSearchedContentTitle.forEach((product) => {
         topStoriesTitleHTML += `
         <span class="text-topStories mr-1 font-roboto">${product.title}</span>
@@ -434,7 +458,93 @@ function renderProducts() {
           `;
       });
       topStoriesProducts.innerHTML = topStoriesProductsHTML;
+
+      data.mobileProductsTitle.forEach((product) => {
+        mobileProductsTitleHTML += `
+        <span class="text-topStories mr-1 font-roboto">${product.title}</span>
+          `;
+      });
+      mobileProductsTitle.innerHTML = mobileProductsTitleHTML;
+
+      data.mobileProducts.forEach((product) => {
+        mobileProductsHTML += `
+        <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${product.productName}</span>
+          `;
+      });
+      mobileProducts.innerHTML = mobileProductsHTML;
+
       
+      data.cameraProductsTitle.forEach((product) => {
+        cameraProductsTitleHTML += `
+        <span class="text-topStories mr-1 font-roboto">${product.title}</span>
+          `;
+      });
+      cameraProductsTitle.innerHTML = cameraProductsTitleHTML;
+
+      data.cameraProducts.forEach((product) => {
+        cameraProductsHTML += `
+        <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${product.productName}</span>
+          `;
+      });
+      cameraProducts.innerHTML = cameraProductsHTML;
+
+       
+      data.laptopProductsTitle.forEach((product) => {
+        laptopProductsTitleHTML += `
+        <span class="text-topStories mr-1 font-roboto">${product.title}</span>
+          `;
+      });
+      laptopProductsTitle.innerHTML = laptopProductsTitleHTML;
+
+      data.laptopProducts.forEach((product) => {
+        laptopProductsHTML += `
+        <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${product.productName}</span>
+          `;
+      });
+      laptopProducts.innerHTML = laptopProductsHTML;
+
+          
+      data.TVProductsTitle.forEach((product) => {
+        TVProductTitleHTML += `
+        <span class="text-topStories mr-1 font-roboto">${product.title}</span>
+          `;
+      });
+      TVProductTitle.innerHTML = TVProductTitleHTML;
+
+      data.TVProducts.forEach((product) => {
+        TVProductsHTML += `
+        <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${product.productName}</span>
+          `;
+      });
+      TVProducts.innerHTML = TVProductsHTML;
+      
+      data.LargeAppliancesTitle.forEach((product) => {
+        LargeAppliancesTitleHTML += `
+        <span class="text-topStories mr-1 font-roboto">${product.title}</span>
+          `;
+      });
+      LargeAppliancesTitle.innerHTML = LargeAppliancesTitleHTML;
+
+      data.LargeAppliances.forEach((product) => {
+        LargeAppliancesHTML += `
+        <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${product.productName}</span>
+          `;
+      });
+      LargeAppliances.innerHTML = LargeAppliancesHTML;
+
+      data.clothProductsTitle.forEach((product) => {
+        clothingProductsTitleHTML += `
+        <span class="text-topStories mr-1 font-roboto">${product.title}</span>
+          `;
+      });
+      clothingProductsTitle.innerHTML = clothingProductsTitleHTML;
+
+      data.clothProducts.forEach((product) => {
+        clothingProductsHTML += `
+        <span class="py-0 px-1.5 border-r border-blackBorder border-solid">${product.productName}</span>
+          `;
+      });
+      clothingProducts.innerHTML = clothingProductsHTML;
       
     });
 }
