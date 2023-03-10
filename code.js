@@ -546,6 +546,11 @@ function renderProducts() {
       });
       clothingProducts.innerHTML = clothingProductsHTML;
       
+      let footerMiddle = document.getElementById('footerMiddle');
+      let footerMiddleHTML = "";
+
+
+      
     });
 }
 
