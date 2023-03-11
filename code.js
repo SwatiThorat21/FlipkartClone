@@ -419,32 +419,35 @@ function renderProducts() {
       let topStoriesTitleHTML = "";
       let topStoriesProducts = document.getElementById("topStoriesProducts");
       let topStoriesProductsHTML = "";
-      let mobileProductsTitle = document.getElementById('mobileProductsTitle');
+      let mobileProductsTitle = document.getElementById("mobileProductsTitle");
       let mobileProductsTitleHTML = "";
-      let mobileProducts = document.getElementById('mobileProducts');
+      let mobileProducts = document.getElementById("mobileProducts");
       let mobileProductsHTML = "";
-      let cameraProductsTitle = document.getElementById('cameraProductsTitle');
+      let cameraProductsTitle = document.getElementById("cameraProductsTitle");
       let cameraProductsTitleHTML = "";
-      let cameraProducts = document.getElementById('cameraProducts');
+      let cameraProducts = document.getElementById("cameraProducts");
       let cameraProductsHTML = "";
-      let laptopProductsTitle = document.getElementById('laptopProductsTitle');
+      let laptopProductsTitle = document.getElementById("laptopProductsTitle");
       let laptopProductsTitleHTML = "";
-      let laptopProducts = document.getElementById('laptopProducts');
+      let laptopProducts = document.getElementById("laptopProducts");
       let laptopProductsHTML = "";
-      let TVProductTitle = document.getElementById('TVProductTitle');
+      let TVProductTitle = document.getElementById("TVProductTitle");
       let TVProductTitleHTML = "";
-      let TVProducts = document.getElementById('TVProducts');
+      let TVProducts = document.getElementById("TVProducts");
       let TVProductsHTML = "";
-      let LargeAppliancesTitle = document.getElementById('LargeAppliancesTitle');
+      let LargeAppliancesTitle = document.getElementById(
+        "LargeAppliancesTitle"
+      );
       let LargeAppliancesTitleHTML = "";
-      let LargeAppliances = document.getElementById('LargeAppliances');
+      let LargeAppliances = document.getElementById("LargeAppliances");
       let LargeAppliancesHTML = "";
-      let clothingProductsTitle = document.getElementById('clothingProductsTitle');
+      let clothingProductsTitle = document.getElementById(
+        "clothingProductsTitle"
+      );
       let clothingProductsTitleHTML = "";
-      let clothingProducts = document.getElementById('clothingProducts');
+      let clothingProducts = document.getElementById("clothingProducts");
       let clothingProductsHTML = "";
 
-          
       data.mostSearchedContentTitle.forEach((product) => {
         topStoriesTitleHTML += `
         <span class="text-topStories mr-1 font-roboto">${product.title}</span>
@@ -473,7 +476,6 @@ function renderProducts() {
       });
       mobileProducts.innerHTML = mobileProductsHTML;
 
-      
       data.cameraProductsTitle.forEach((product) => {
         cameraProductsTitleHTML += `
         <span class="text-topStories mr-1 font-roboto">${product.title}</span>
@@ -488,7 +490,6 @@ function renderProducts() {
       });
       cameraProducts.innerHTML = cameraProductsHTML;
 
-       
       data.laptopProductsTitle.forEach((product) => {
         laptopProductsTitleHTML += `
         <span class="text-topStories mr-1 font-roboto">${product.title}</span>
@@ -503,7 +504,6 @@ function renderProducts() {
       });
       laptopProducts.innerHTML = laptopProductsHTML;
 
-          
       data.TVProductsTitle.forEach((product) => {
         TVProductTitleHTML += `
         <span class="text-topStories mr-1 font-roboto">${product.title}</span>
@@ -517,7 +517,7 @@ function renderProducts() {
           `;
       });
       TVProducts.innerHTML = TVProductsHTML;
-      
+
       data.LargeAppliancesTitle.forEach((product) => {
         LargeAppliancesTitleHTML += `
         <span class="text-topStories mr-1 font-roboto">${product.title}</span>
@@ -545,12 +545,54 @@ function renderProducts() {
           `;
       });
       clothingProducts.innerHTML = clothingProductsHTML;
-      
-      let footerMiddle = document.getElementById('footerMiddle');
-      let footerMiddleHTML = "";
 
+      let footerMiddleContainer = document.getElementById("footerMiddleContainer");
+      let footerMiddleContainerHTML = "";
 
-      
+      data.flipkartDescription.forEach((ele) => {
+        let footerMiddleContentHTML = `<div class="footerMiddleContent">`;
+        if (ele.p2) {
+          footerMiddleContentHTML += `
+                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
+                    <p>${ele.p1}</p><br>
+                    <p>${ele.p2}</p><br>`;
+        }else if (ele.p7) {
+          footerMiddleContentHTML += `
+                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
+                    <p>${ele.p1}</p><br>
+                    <p>${ele.p2}</p><br>
+                    <p>${ele.p3}</p><br>
+                    <p>${ele.p4}</p><br>
+                    <p>${ele.p5}</p><br>
+                    <p>${ele.p6}</p><br>
+                    <p>${ele.p7}</p><br>`;
+        }else if (ele.p1) {
+          footerMiddleContentHTML += `
+                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
+                    <p>${ele.p1}</p><br>`;
+        }else if (ele.title1) {
+          footerMiddleContentHTML += `
+                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
+                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title1}</h2>
+                    <p>${ele.p1}</p><br>`;
+        }else if (ele.p1 && ele.p2 && ele.p3 && ele.p4) {
+          footerMiddleContentHTML += `
+                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
+                    <p>${ele.p1}</p><br>
+                    <p>${ele.p2}</p><br>
+                    <p>${ele.p3}</p><br>
+                    <p>${ele.p4}</p><br>`;
+        }
+
+        footerMiddleContentHTML += `</div>`
+
+        footerMiddleContainerHTML += footerMiddleContentHTML;
+
+        footerMiddleContainer.innerHTML= footerMiddleContainerHTML;
+
+        
+
+      });
     });
 }
 
