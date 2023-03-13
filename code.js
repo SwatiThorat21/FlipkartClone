@@ -551,46 +551,15 @@ function renderProducts() {
 
       data.flipkartDescription.forEach((ele) => {
         let footerMiddleContentHTML = `<div class="footerMiddleContent">`;
-        if (ele.p2) {
-          footerMiddleContentHTML += `
+        footerMiddleContentHTML += `
                     <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
-                    <p>${ele.p1}</p><br>
-                    <p>${ele.p2}</p><br>`;
-        }else if (ele.p7) {
-          footerMiddleContentHTML += `
-                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
-                    <p>${ele.p1}</p><br>
-                    <p>${ele.p2}</p><br>
-                    <p>${ele.p3}</p><br>
-                    <p>${ele.p4}</p><br>
-                    <p>${ele.p5}</p><br>
-                    <p>${ele.p6}</p><br>
-                    <p>${ele.p7}</p><br>`;
-        }else if (ele.p1) {
-          footerMiddleContentHTML += `
-                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
-                    <p>${ele.p1}</p><br>`;
-        }else if (ele.title1) {
-          footerMiddleContentHTML += `
-                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
-                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title1}</h2>
-                    <p>${ele.p1}</p><br>`;
-        }else if (ele.p1 && ele.p2 && ele.p3 && ele.p4) {
-          footerMiddleContentHTML += `
-                    <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
-                    <p>${ele.p1}</p><br>
-                    <p>${ele.p2}</p><br>
-                    <p>${ele.p3}</p><br>
-                    <p>${ele.p4}</p><br>`;
-        }
+                    <p>${ele.p1}</p><br>`       
 
         footerMiddleContentHTML += `</div>`
 
         footerMiddleContainerHTML += footerMiddleContentHTML;
 
-        footerMiddleContainer.innerHTML= footerMiddleContainerHTML;
-
-        
+        footerMiddleContainer.innerHTML= footerMiddleContainerHTML;      
 
       });
     });
