@@ -28,9 +28,9 @@ body {
   object-fit: cover;
 }
 
-#productListContain {
+/* #productListContain {
   width: 232px;
-}
+} */
 
 .swiper-button-prev {
   padding: 50px 25px 50px 25px;
@@ -68,8 +68,8 @@ body {
 }
 
 .productImg {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   position: relative;
   margin: 0 auto 0 auto;
 }
@@ -145,11 +145,7 @@ body {
   display: block;
 }
 @media only screen and (max-width: 1536px) {
-  .productImg {
-    width: 170px;
-    height: 170px;
-  }
-  .logo_Container {
+   .logo_Container {
     width: 5rem;
   }
   .search_container {
@@ -190,11 +186,6 @@ body {
 }
 
 @media only screen and (max-width: 1280px) {
-  .productImg {
-    width: 170px;
-    height: 170px;
-  }
-
   .logo_Container {
     width: 4rem;
   }
@@ -314,11 +305,7 @@ body {
   .featureProductname {
     font-size: 0.6rem;
   }
-  .productImg {
-    width: 160px;
-    height: 160px;
-  }
-  .productListHeading {
+   .productListHeading {
     font-size: 1.4rem;
   }
   .viewAllBtn {
@@ -358,6 +345,13 @@ body {
   #preve_imageBtn,
   #next_imageBtn {
     padding: 30px 15px 30px 15px;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 30px;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    width: 1rem;
+    height: 2rem;
   }
 }
 
@@ -439,10 +433,6 @@ body {
     padding: 1rem 0.5rem;
     width: 200px;
   }
-  .productImg {
-    width: 150px;
-    height: 150px;
-  }
   .productListHeading {
     font-size: 1.1rem;
   }
@@ -471,8 +461,15 @@ body {
     padding: 20px 10px 20px 10px;
     top: 40%;
   }
+  .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 20px;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    width: 1rem;
+    height: 2rem;
+  }
   #imageBtnContainer {
-    width: 100%;
+    width: 100.2%;
   }
   .footerTop{
     font-size: 0.5rem;
@@ -534,21 +531,23 @@ body {
   .loginBtn {
     padding: 0.1rem 0.75rem;
     font-size: 0.3rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
   }
   .seller {
     margin: 0;
     font-size: 0.4rem;
-    width: 100%;
+    width: 15%;
   }
   .more_link {
     margin: 0;
     font-size: 0.4rem;
-    width: 100%;
+    width: 15%;
   }
   .cart {
     margin: 0;
     font-size: 0.4rem;
-    width: 100%;
+    width: 15%;
   }
   #featuredProducts {
     height: 3.5rem;
@@ -572,15 +571,11 @@ body {
     padding: 0rem;
   }
   .product_list {
-    height: 6rem;
+    height: 5rem;
   }
   .productListHeading1 {
     padding: 0.6rem 0.2rem;
-    width: 130px;
-  }
-  .productImg {
-    width: 100px;
-    height: 100px;
+    width: 95px;
   }
   .productListHeading {
     font-size: 0.7rem;
@@ -610,11 +605,18 @@ body {
   }
   #preve_imageBtn,
   #next_imageBtn {
-    padding: 10px 5px 10px 5px;
-    top: 45%;
+    padding: 0;
+    top: 50%;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 10px;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    width: 1rem;
+    height: 2rem;
   }
   #imageBtnContainer {
-    width: 102.8%;
+    width: 102.1%;
   }
   #footer{
     margin-top: 0.5rem;
@@ -632,10 +634,11 @@ body {
   }
   .footerMiddle{
     margin-top: 0.5rem;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
+    line-height: 0.7rem;
   }
   .footerMiddleHeading{
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
   .footer {
     font-size: 0.4rem;
@@ -663,7 +666,6 @@ body {
   }
   .officeAddress p {
     font-size: 0.3rem;
-
   }
   .footer2 {
     font-size: 0.3rem;
@@ -674,7 +676,6 @@ body {
   }
   .footerImg2 {
     width: 100%;
-  
   }
   .footer2Text {
     margin-left: 3px;

@@ -91,7 +91,7 @@ function renderProducts() {
       );
 
       new Swiper(".bestEleProductList", {
-        slidesPerView: 6,
+        slidesPerView: 4,
         centeredSlides: false,
         spaceBetween: 20,
         navigation: {
@@ -105,26 +105,6 @@ function renderProducts() {
           },
           1280: {
             slidesPerView: 5,
-            spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          },
-          980: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          340: {
-            slidesPerView: 3,
             spaceBetween: 20,
           },
         },
@@ -150,7 +130,7 @@ function renderProducts() {
       );
 
       new Swiper(".beautyFoodToysProductList", {
-        slidesPerView: 6,
+        slidesPerView: 4,
         centeredSlides: false,
         spaceBetween: 20,
         navigation: {
@@ -165,27 +145,7 @@ function renderProducts() {
           1280: {
             slidesPerView: 5,
             spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          },
-          980: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          340: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
+          }
         },
       });
 
@@ -205,7 +165,7 @@ function renderProducts() {
       summerProductsList.insertAdjacentHTML("beforeend", summerProductHTML);
 
       new Swiper(".summerProductsList", {
-        slidesPerView: 6,
+        slidesPerView: 4,
         centeredSlides: false,
         spaceBetween: 20,
         navigation: {
@@ -220,27 +180,7 @@ function renderProducts() {
           1280: {
             slidesPerView: 5,
             spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          },
-          980: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          340: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
+          }
         },
       });
 
@@ -264,7 +204,7 @@ function renderProducts() {
       );
 
       new Swiper(".homeKitchenProductsList", {
-        slidesPerView: 6,
+        slidesPerView: 4,
         centeredSlides: false,
         spaceBetween: 20,
         navigation: {
@@ -279,27 +219,7 @@ function renderProducts() {
           1280: {
             slidesPerView: 5,
             spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          },
-          980: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          340: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
+          }
         },
       });
 
@@ -320,7 +240,7 @@ function renderProducts() {
       fashionProductsList.insertAdjacentHTML("beforeend", fashionProductHTML);
 
       new Swiper(".fashionProductsList", {
-        slidesPerView: 6,
+        slidesPerView: 4,
         centeredSlides: false,
         spaceBetween: 20,
         navigation: {
@@ -335,27 +255,7 @@ function renderProducts() {
           1280: {
             slidesPerView: 5,
             spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          },
-          980: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          340: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
+          }
         },
       });
 
@@ -376,7 +276,7 @@ function renderProducts() {
       topDealProductsList.insertAdjacentHTML("beforeend", topDealProductHTML);
 
       new Swiper(".topDealProductsList", {
-        slidesPerView: 6,
+        slidesPerView: 4,
         centeredSlides: false,
         spaceBetween: 20,
         navigation: {
@@ -391,27 +291,7 @@ function renderProducts() {
           1280: {
             slidesPerView: 5,
             spaceBetween: 20,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          },
-          980: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          340: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
+          }
         },
       });
 
@@ -546,21 +426,22 @@ function renderProducts() {
       });
       clothingProducts.innerHTML = clothingProductsHTML;
 
-      let footerMiddleContainer = document.getElementById("footerMiddleContainer");
+      let footerMiddleContainer = document.getElementById(
+        "footerMiddleContainer"
+      );
       let footerMiddleContainerHTML = "";
 
       data.flipkartDescription.forEach((ele) => {
         let footerMiddleContentHTML = `<div class="footerMiddleContent">`;
         footerMiddleContentHTML += `
                     <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
-                    <p>${ele.p}</p><br>`       
+                    <p>${ele.p}</p><br>`;
 
-        footerMiddleContentHTML += `</div>`
+        footerMiddleContentHTML += `</div>`;
 
         footerMiddleContainerHTML += footerMiddleContentHTML;
 
-        footerMiddleContainer.innerHTML= footerMiddleContainerHTML;      
-
+        footerMiddleContainer.innerHTML = footerMiddleContainerHTML;
       });
     });
 }
