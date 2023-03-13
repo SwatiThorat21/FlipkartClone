@@ -553,7 +553,7 @@ function renderProducts() {
         let footerMiddleContentHTML = `<div class="footerMiddleContent">`;
         footerMiddleContentHTML += `
                     <h2 class="footerMiddleHeading text-belowBase mb-2.5 font-extrabold leading-4 tracking-tighter">${ele.title}</h2>
-                    <p>${ele.p1}</p><br>`       
+                    <p>${ele.p}</p><br>`       
 
         footerMiddleContentHTML += `</div>`
 
